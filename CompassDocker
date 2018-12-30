@@ -1,0 +1,15 @@
+#
+# Compass Image / runs compass within a container
+#
+FROM ruby:2.4
+ENV DEBIAN_FRONTEND noninteractive
+ENV UPDATED_AT 10-03-2017 01:00:00
+
+ENV HOME /root
+
+# install compass
+RUN gem install --no-rdoc --no-ri compass
+
+WORKDIR /srv
+
+ENTRYPOINT ["compass"]

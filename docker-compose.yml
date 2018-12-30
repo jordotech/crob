@@ -1,0 +1,28 @@
+version: '2'
+services:
+  web:
+    hostname: web
+    restart: on-failure
+    environment:
+      - COLUMNS=150
+      #- SHELL=/bin/bash
+    container_name: crob_web
+    ports:
+      - "9875:80"
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    command: nginx -g 'daemon off;'
+
+    volumes:
+      - ./:/usr/share/nginx/html
+  compass:
+    container_name: crob_compass
+    build:
+      context: .
+      dockerfile: ./CompassDocker
+    command: watch --poll /srv/static
+    volumes:
+      - ./:/srv
+volumes:
+  web:

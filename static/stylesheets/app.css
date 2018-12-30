@@ -1,0 +1,360 @@
+/* BASE STYLES
+============================================================================= */
+/* line 4, ../sass/app.scss */
+h1 {
+  font-family: 'Roboto', sans-serif !important;
+}
+
+/* line 9, ../sass/app.scss */
+.page h1 {
+  font-size: 60px;
+}
+/* line 12, ../sass/app.scss */
+.page a {
+  margin-top: 50px;
+}
+
+/* line 17, ../sass/app.scss */
+#images {
+  color: #333;
+  position: absolute;
+  text-align: center;
+  top: 50px;
+  width: 100%;
+}
+
+/* PAGES
+============================================================================= */
+/* ANIMATIONS
+============================================================================= */
+/* line 32, ../sass/app.scss */
+.page.ng-leave {
+  z-index: 9999;
+}
+/* line 35, ../sass/app.scss */
+.page.ng-enter {
+  z-index: 8888;
+}
+
+/* page specific animations ------------------------ */
+/* home -------------------------- */
+/* line 46, ../sass/app.scss */
+.page-home.ng-enter, .page-images.ng-enter, .page-stills.ng-enter {
+  -webkit-animation-name: fadeIn;
+  animation: fadeIn .5s both ease-in;
+}
+
+/* images ------------------------ */
+/* stills ---------------------- */
+/* rotate and fall */
+@-webkit-keyframes rotateFall {
+  0% {
+    -webkit-transform: rotateZ(0deg);
+  }
+  20% {
+    -webkit-transform: rotateZ(10deg);
+    -webkit-animation-timing-function: ease-out;
+  }
+  40% {
+    -webkit-transform: rotateZ(17deg);
+  }
+  60% {
+    -webkit-transform: rotateZ(16deg);
+  }
+  100% {
+    -webkit-transform: translateY(100%) rotateZ(17deg);
+  }
+}
+@-moz-keyframes rotateFall {
+  0% {
+    -moz-transform: rotateZ(0deg);
+  }
+  20% {
+    -moz-transform: rotateZ(10deg);
+    -moz-animation-timing-function: ease-out;
+  }
+  40% {
+    -moz-transform: rotateZ(17deg);
+  }
+  60% {
+    -moz-transform: rotateZ(16deg);
+  }
+  100% {
+    -moz-transform: translateY(100%) rotateZ(17deg);
+  }
+}
+@keyframes rotateFall {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  20% {
+    transform: rotateZ(10deg);
+    animation-timing-function: ease-out;
+  }
+  40% {
+    transform: rotateZ(17deg);
+  }
+  60% {
+    transform: rotateZ(16deg);
+  }
+  100% {
+    transform: translateY(100%) rotateZ(17deg);
+  }
+}
+/* scale up */
+@keyframes scaleUp {
+  from {
+    opacity: 0.3;
+    transform: scale(0.8);
+  }
+}
+@-moz-keyframes scaleUp {
+  from {
+    opacity: 0.3;
+    -moz-transform: scale(0.8);
+  }
+}
+@-webkit-keyframes scaleUp {
+  from {
+    opacity: 0.3;
+    -webkit-transform: scale(0.8);
+  }
+}
+/* slide in from the right */
+@keyframes slideInRight {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+@-moz-keyframes slideInRight {
+  from {
+    -moz-transform: translateX(100%);
+  }
+  to {
+    -moz-transform: translateX(0);
+  }
+}
+@-webkit-keyframes slideInRight {
+  from {
+    -webkit-transform: translateX(100%);
+  }
+  to {
+    -webkit-transform: translateX(0);
+  }
+}
+/* slide in from the bottom */
+@keyframes slideInUp {
+  from {
+    transform: translateY(100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+@-moz-keyframes slideInUp {
+  from {
+    -moz-transform: translateY(100%);
+  }
+  to {
+    -moz-transform: translateY(0);
+  }
+}
+@-webkit-keyframes slideInUp {
+  from {
+    -webkit-transform: translateY(100%);
+  }
+  to {
+    -webkit-transform: translateY(0);
+  }
+}
+/* slide in from the bottom */
+@keyframes slideOutLeft {
+  to {
+    transform: translateX(-100%);
+  }
+}
+@-moz-keyframes slideOutLeft {
+  to {
+    -moz-transform: translateX(-100%);
+  }
+}
+@-webkit-keyframes slideOutLeft {
+  to {
+    -webkit-transform: translateX(-100%);
+  }
+}
+/* rotate out newspaper */
+@-webkit-keyframes rotateOutNewspaper {
+  to {
+    -webkit-transform: translateZ(-3000px) rotateZ(360deg);
+    opacity: 0;
+  }
+}
+@-moz-keyframes rotateOutNewspaper {
+  to {
+    -moz-transform: translateZ(-3000px) rotateZ(360deg);
+    opacity: 0;
+  }
+}
+@keyframes rotateOutNewspaper {
+  to {
+    transform: translateZ(-3000px) rotateZ(360deg);
+    opacity: 0;
+  }
+}
+@-webkit-keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/* line 321, ../sass/app.scss */
+body {
+  padding-top: 120px;
+  background: #fff;
+  color: #000;
+}
+
+/* line 327, ../sass/app.scss */
+video:hover {
+  cursor: pointer;
+}
+
+/* line 331, ../sass/app.scss */
+a {
+  color: #000;
+}
+/* line 333, ../sass/app.scss */
+a:hover {
+  color: #000;
+}
+
+@media only screen and (max-width: 768px) {
+  /* line 339, ../sass/app.scss */
+  h1 {
+    text-align: center;
+    font-size: 35px;
+  }
+
+  /* line 343, ../sass/app.scss */
+  .bullets {
+    text-align: center;
+  }
+}
+/* line 348, ../sass/app.scss */
+.content {
+  border-top: 1px solid #C9CACC;
+}
+
+/* line 352, ../sass/app.scss */
+.bullets {
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+/* line 357, ../sass/app.scss */
+.album-text:hover {
+  text-decoration: underline;
+}
+
+/* line 361, ../sass/app.scss */
+.artist {
+  font-weight: bold;
+}
+
+/* line 365, ../sass/app.scss */
+.top-bar {
+  background: #000;
+  border-bottom: 5px solid #C9CACC;
+  height: 40px;
+}
+
+/* line 371, ../sass/app.scss */
+h1 {
+  margin-top: 10px;
+  font-size: 40px !important;
+}
+
+/* line 376, ../sass/app.scss */
+.header {
+  margin-bottom: 40px;
+}
+
+/* line 380, ../sass/app.scss */
+.panel-footer {
+  height: 100px;
+}
+
+/* line 384, ../sass/app.scss */
+a {
+  color: #333 !important;
+}
+
+/* line 388, ../sass/app.scss */
+nav a.active {
+  text-decoration: underline;
+}
+
+/* line 392, ../sass/app.scss */
+.panel {
+  cursor: pointer;
+  box-shadow: none !important;
+}
+
+/* line 397, ../sass/app.scss */
+.panel-footer {
+  background-color: #fff !important;
+}
+
+@media only screen and (min-width: 1200px) {
+  /* line 402, ../sass/app.scss */
+  .image-grid .panel-body {
+    height: 340px;
+  }
+}
+/* line 407, ../sass/app.scss */
+h2 {
+  padding-left: 15px;
+}
+
+/* line 411, ../sass/app.scss */
+.phil-top {
+  padding-left: 30px;
+}

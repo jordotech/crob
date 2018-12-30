@@ -2,13 +2,30 @@
 ============================================================================= */
 
 h1 {
-  font-family: 'Roboto', sans-serif !important;
+  //font-family: 'Roboto', sans-serif !important;
+  @media (min-width: 400px) {
+      text-align:center;
+      font-size:20px !important;
+    }
+  @media (min-width: 768px) {
+    text-align:left;
+      font-size: 30px !important;
+    }
+    @media (min-width: 992px) {
+      font-size: 40px !important;
+    }
+}
+.bullets{
+  @media (min-width: 768px) {
+    margin-top:5px;
+    }
+}
+.works-button-group{
+  margin-bottom:15px;
 }
 
 .page {
-  h1 {
-    font-size: 60px;
-  }
+
 
   a {
     //margin-top: 50px;
@@ -340,24 +357,12 @@ a {
   }
 }
 
-@media only screen and (max-width: 768px) {
-  h1 {
-    text-align: center;
-    font-size: 35px;
-  }
-  .bullets {
-    text-align: center;
-  }
-}
+
 
 .content {
   border-top: 1px solid #C9CACC;
 }
 
-.bullets {
-  font-weight: bold;
-  margin-top: 15px;
-}
 
 .album-text:hover {
   text-decoration: underline;
@@ -373,10 +378,6 @@ a {
   height: 40px;
 }
 
-h1 {
-  margin-top: 10px;
-  font-size: 40px !important;
-}
 
 .header {
   margin-bottom: 40px;

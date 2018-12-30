@@ -13,11 +13,37 @@
             ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.
 
         </div>
-  <div class="col-md-6">
+        <div class="col-md-6">
+            <div class="col-md-4"><img class="img-responsive" src="./media/IMAGES/bio/bio1.jpg"/></div>
+            <div class="col-md-4"><img class="img-responsive" src="./media/IMAGES/bio/bio2.jpg"/></div>
+            <div class="col-md-4"><img class="img-responsive" src="./media/IMAGES/bio/bio3.jpg"/></div>
+        </div>
 
+    </div>
 
+    <div class="row" ng-repeat="item in items track by $index" ng-if="items && $index % 4 == 0">
+        <div ng-repeat="i in [$index, $index + 1, $index + 2, $index + 3]"
+             ng-if="items[i] != null">
+            <div class="col-xs-12 page-grid">
+                <div class="panel" data-toggle="modal" data-target="#myModal">
+                    <div class="album-img panel-body text-center">
+                        <img class="img-responsive" ng-src="{{ items[i].thumb }}"/>
+                    </div>
+                    <div class="text-center panel-footer">
+                        <h5 class="title">{{ items[i].title }}</h5>
+                        <div class="text-muted small description">
+                            {{ items[i].description }}<br/>{{ items[i].dimensions }}
+                        </div>
+                        <div class="full-res-link" style="display:none;">
+                            <a href="{{ items[i].src }}" target="_blank">Full Resolution.
+                                <span class="glyphicon glyphicon-new-window" aria-hidden="true"></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
 
-  </div>
+            </div>
 
+        </div>
     </div>
 </div>

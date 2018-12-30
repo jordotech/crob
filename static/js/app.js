@@ -30,7 +30,7 @@ app.config(["$routeProvider", "$locationProvider", function ($routeProvider, $lo
 
         .when('/bio', {
             templateUrl: 'templates/page-bio.html',
-            controller: 'worksController'
+            controller: 'bioController'
         })
 
 
@@ -38,7 +38,13 @@ app.config(["$routeProvider", "$locationProvider", function ($routeProvider, $lo
 
 angular.module('App.Controllers', [])
 
-    .controller('worksController', ['$scope', '$routeParams', function ($scope, $routeParams) {
+    .controller('worksController', ['$scope', '$routeParams', '$location', function ($scope, $routeParams, $location) {
+        $scope.isActive = function (viewLocation) {
+            console.log(viewLocation);
+            console.log($location.path());
+            var match = viewLocation === $location.path();
+            return match
+        };
         $scope.section = $routeParams.section;
         $scope.sub_section = $routeParams.sub_section;
         $scope.showSubsections = false;
@@ -50,7 +56,7 @@ angular.module('App.Controllers', [])
             for (var key in _section) {
                 $scope.subSections.push({
                     'name': key,
-                    'href': '#works/' + $scope.section + '/' + key
+                    'href': '/works/' + $scope.section + '/' + key
                 });
             }
             if ($scope.sub_section) {
@@ -70,10 +76,18 @@ angular.module('App.Controllers', [])
 
 
     }])
-    .controller('pressController', ['$scope', '$routeParams', function ($scope, $routeParams) {
+    .controller('bioController', ['$scope', '$routeParams', function ($scope, $routeParams) {
 
         $scope.pageClass = 'page-works';
         $scope.pageName = "Press";
+        $scope.items = m['bio'];
+        console.log($scope.items);
+
+    }])
+    .controller('pressController', ['$scope', '$routeParams', function ($scope, $routeParams) {
+
+        $scope.pageClass = 'page-works';
+        $scope.section = "Press & Publications";
         $scope.items = m['press'];
         console.log($scope.items);
 

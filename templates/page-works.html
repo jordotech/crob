@@ -1,12 +1,15 @@
 <div class="container">
-    <h2>{{pageName | uppercase}}</h2>
+    <h3><span>{{section | uppercase }}</span><span ng-if="sub_section"> / {{sub_section}}</span></h3>
 
-    <div class="list-group" ng-if="showSubsections">
-        <a ng-href="{{item.href}}" class="list-group-item" ng-repeat="item in subSections track by $index"
+
+    <div class="btn-group btn-group-lg btn-group-justified works-button-group">
+        <a ng-href="#{{item.href}}" class="btn btn-default" ng-class="{ active: isActive(item.href)}" ng-repeat="item in subSections track by $index"
            ng-if="subSections && subSections.length > 1">
-            <h3>{{ item.name | uppercase }}</h3>
+            {{ item.name | uppercase }}
         </a>
-    </div>
+
+</div>
+
 
     <div class="row" ng-repeat="item in items track by $index" ng-if="items && $index % 4 == 0">
         <div ng-repeat="i in [$index, $index + 1, $index + 2, $index + 3]"

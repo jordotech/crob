@@ -1,7 +1,7 @@
 <div class="container">
     <h2>{{pageName | uppercase}}</h2>
 
-    <div class="row" ng-repeat="item in items track by $index" ng-if="sub_section && $index % 4 == 0">
+    <div class="row" ng-repeat="item in items track by $index" ng-if="items && $index % 4 == 0">
         <div ng-repeat="i in [$index, $index + 1, $index + 2, $index + 3]"
              ng-if="items[i] != null">
             <div class="col-xs-12 col-sm-6 col-md-3 page-grid">

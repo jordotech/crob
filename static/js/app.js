@@ -50,10 +50,12 @@ angular.module('App.Controllers', [])
             console.log($scope.subSections);
             if($scope.sub_section){
                     $scope.items = m[$scope.section][$scope.sub_section];
-                    console.log($scope.items);
                     $scope.pageName = $scope.section + ', ' + $scope.sub_section
                 }else{
+                    if($scope.subSections.length == 1){
+                        $scope.items = m[$scope.section]['misc'];
 
+                    }
 
                 }
         } else {

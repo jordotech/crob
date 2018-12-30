@@ -40,14 +40,13 @@ angular.module('App.Controllers', [])
 
     .controller('worksController', ['$scope', '$routeParams', '$location', function ($scope, $routeParams, $location) {
         $scope.isActive = function (viewLocation) {
-            console.log(viewLocation);
-            console.log($location.path());
             var match = viewLocation === $location.path();
             return match
         };
         $scope.section = $routeParams.section;
         $scope.sub_section = $routeParams.sub_section;
         $scope.showSubsections = false;
+
         $scope.pageClass = 'page-works';
         if ($scope.section) {
             $scope.subSections = Array();
@@ -60,6 +59,10 @@ angular.module('App.Controllers', [])
                 });
             }
             if ($scope.sub_section) {
+                if($scope.section == 'textiles' && $scope.sub_section == '1982'){
+                    $scope.page_description = "All images feature fabrics designed by M. Clark Robertson for textile " +
+                        "company China Seas; photographs taken in Cambodia in collaboration with Inger McCabe Elliott"
+                }
                 $scope.items = m[$scope.section][$scope.sub_section];
                 $scope.pageName = $scope.section + ', ' + $scope.sub_section
             } else {
@@ -70,8 +73,6 @@ angular.module('App.Controllers', [])
             if($scope.subSections.length > 0 && !$scope.sub_section){
                 $scope.showSubsections = true;
             }
-        } else {
-            $scope.pageName = '';
         }
 
 
@@ -81,7 +82,6 @@ angular.module('App.Controllers', [])
         $scope.pageClass = 'page-works';
         $scope.pageName = "Press";
         $scope.items = m['bio'];
-        console.log($scope.items);
 
     }])
     .controller('pressController', ['$scope', '$routeParams', function ($scope, $routeParams) {
@@ -89,7 +89,6 @@ angular.module('App.Controllers', [])
         $scope.pageClass = 'page-works';
         $scope.section = "Press & Publications";
         $scope.items = m['press'];
-        console.log($scope.items);
 
     }])
     .controller('headerController', function ($scope, $location) {

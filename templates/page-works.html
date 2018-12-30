@@ -10,7 +10,14 @@
 
 </div>
 
+<div class="row well text-center" ng-if="page_description">
 
+    {{page_description}}
+</div>
+
+
+
+</div>
     <div class="row" ng-repeat="item in items track by $index" ng-if="items && $index % 4 == 0">
         <div ng-repeat="i in [$index, $index + 1, $index + 2, $index + 3]"
              ng-if="items[i] != null">

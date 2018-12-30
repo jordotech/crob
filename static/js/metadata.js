@@ -235,172 +235,172 @@ var m = {
         '1989': [
             {
                 'src': './media/IMAGES/paintings/1989/1989_01.jpg',
-                'description': '',
-                'dimensions': '',
+                'description': 'dye on linen',
+                'dimensions': '48.5" x 75"',
                 'thumb': './media/IMAGES/paintings/1989/1989_01.jpg',
-                'title': ''
+                'title': 'Untitled'
             }, {
                 'src': './media/IMAGES/paintings/1989/1989_02.jpg',
-                'description': '',
-                'dimensions': '',
+                'description': 'dye and pigment on linen',
+                'dimensions': '139" x 102"',
                 'thumb': './media/IMAGES/paintings/1989/1989_02.jpg',
-                'title': ''
+                'title': 'Casket'
             }, {
                 'src': './media/IMAGES/paintings/1989/1989_03.jpg',
-                'description': '',
-                'dimensions': '',
+                'description': 'dye, pigment and embroidery on linen',
+                'dimensions': '104" x 138"',
                 'thumb': './media/IMAGES/paintings/1989/1989_03.jpg',
-                'title': ''
+                'title': 'Untitled'
             }, {
                 'src': './media/IMAGES/paintings/1989/1989_04.jpg',
-                'description': '',
-                'dimensions': '',
+                'description': 'dye on linen',
+                'dimensions': '27" x 23"',
                 'thumb': './media/IMAGES/paintings/1989/1989_04.jpg',
-                'title': ''
+                'title': 'Untitled'
             }, {
                 'src': './media/IMAGES/paintings/1989/1989_05.jpg',
-                'description': '',
-                'dimensions': '',
+                'description': 'dye on linen',
+                'dimensions': '27" x 23"',
                 'thumb': './media/IMAGES/paintings/1989/1989_05.jpg',
-                'title': ''
+                'title': 'Untitled'
             }, {
                 'src': './media/IMAGES/paintings/1989/1989_06.jpg',
-                'description': '',
-                'dimensions': '',
+                'description': 'dye on linen',
+                'dimensions': '94" x 78"',
                 'thumb': './media/IMAGES/paintings/1989/1989_06.jpg',
-                'title': ''
+                'title': 'Untitled'
             }, {
                 'src': './media/IMAGES/paintings/1989/1989_07.jpg',
-                'description': '',
-                'dimensions': '',
+                'description': 'dye on linen',
+                'dimensions': '24" x 19"',
                 'thumb': './media/IMAGES/paintings/1989/1989_07.jpg',
-                'title': ''
+                'title': 'Untitled'
             }, {
                 'src': './media/IMAGES/paintings/1989/1989_08.jpg',
-                'description': '',
-                'dimensions': '',
+                'description': 'dye on linen',
+                'dimensions': '24" x 19"',
                 'thumb': './media/IMAGES/paintings/1989/1989_08.jpg',
-                'title': ''
+                'title': 'Untitled'
             }, {
                 'src': './media/IMAGES/paintings/1989/1989_09.jpg',
-                'description': '',
-                'dimensions': '',
+                'description': 'dye on linen',
+                'dimensions': '55.5" x 51.5"',
                 'thumb': './media/IMAGES/paintings/1989/1989_09.jpg',
-                'title': ''
+                'title': 'Untitled'
             }, {
                 'src': './media/IMAGES/paintings/1989/1989_10.jpg',
-                'description': '',
-                'dimensions': '',
+                'description': 'dye on linen',
+                'dimensions': '55.5" x 51.5"',
                 'thumb': './media/IMAGES/paintings/1989/1989_10.jpg',
-                'title': ''
+                'title': 'Untitled'
             }, {
                 'src': './media/IMAGES/paintings/1989/1989_11.jpg',
-                'description': '',
-                'dimensions': '',
+                'description': 'dye on linen',
+                'dimensions': '55.5" x 51.5"',
                 'thumb': './media/IMAGES/paintings/1989/1989_11.jpg',
-                'title': ''
+                'title': 'Untitled'
             }, {
                 'src': './media/IMAGES/paintings/1989/1989_12.jpg',
-                'description': '',
+                'description': 'dye on linen',
                 'dimensions': '',
                 'thumb': './media/IMAGES/paintings/1989/1989_12.jpg',
-                'title': ''
+                'title': 'Untitled'
             }, {
                 'src': './media/IMAGES/paintings/1989/1989_13.jpg',
-                'description': '',
-                'dimensions': '',
+                'description': 'dye and pigment on linen',
+                'dimensions': '81" x 116"',
                 'thumb': './media/IMAGES/paintings/1989/1989_13.jpg',
-                'title': ''
+                'title': 'City of Mothers'
             }, {
                 'src': './media/IMAGES/paintings/1989/1989_14.jpg',
-                'description': '',
+                'description': 'dye on linen',
                 'dimensions': '',
                 'thumb': './media/IMAGES/paintings/1989/1989_14.jpg',
-                'title': ''
+                'title': 'Untitled'
             }, {
                 'src': './media/IMAGES/paintings/1989/1989_15.jpg',
-                'description': '',
+                'description': 'dye on linen',
                 'dimensions': '',
                 'thumb': './media/IMAGES/paintings/1989/1989_15.jpg',
-                'title': ''
+                'title': 'Untitled'
             }, {
                 'src': './media/IMAGES/paintings/1989/1989_16.jpg',
-                'description': '',
+                'description': 'Dye on linen',
                 'dimensions': '',
                 'thumb': './media/IMAGES/paintings/1989/1989_16.jpg',
-                'title': ''
+                'title': 'Diptych'
             }, {
                 'src': './media/IMAGES/paintings/1989/1989_17.jpg',
-                'description': '',
+                'description': 'dye on linen',
                 'dimensions': '',
                 'thumb': './media/IMAGES/paintings/1989/1989_17.jpg',
-                'title': ''
+                'title': 'Untitled'
             }, {
                 'src': './media/IMAGES/paintings/1989/1989_18.jpg',
                 'description': '',
                 'dimensions': '',
                 'thumb': './media/IMAGES/paintings/1989/1989_18.jpg',
-                'title': ''
+                'title': 'Detail'
             }, {
                 'src': './media/IMAGES/paintings/1989/1989_19.jpg',
-                'description': '',
+                'description': 'dye on linen',
                 'dimensions': '',
                 'thumb': './media/IMAGES/paintings/1989/1989_19.jpg',
-                'title': ''
+                'title': 'Untitled'
             }, {
                 'src': './media/IMAGES/paintings/1989/1989_20.jpg',
                 'description': '',
                 'dimensions': '',
                 'thumb': './media/IMAGES/paintings/1989/1989_20.jpg',
-                'title': ''
+                'title': 'Detail'
             }, {
                 'src': './media/IMAGES/paintings/1989/1989_21.jpg',
-                'description': '',
+                'description': 'dye on linen',
                 'dimensions': '',
                 'thumb': './media/IMAGES/paintings/1989/1989_21.jpg',
-                'title': ''
+                'title': 'Untitled'
             }, {
                 'src': './media/IMAGES/paintings/1989/1989_22.jpg',
-                'description': '',
+                'description': 'dye on linen',
                 'dimensions': '',
                 'thumb': './media/IMAGES/paintings/1989/1989_22.jpg',
-                'title': ''
+                'title': 'Untitled'
             }, {
                 'src': './media/IMAGES/paintings/1989/1989_23.jpg',
-                'description': '',
+                'description': 'dye on linen',
                 'dimensions': '',
                 'thumb': './media/IMAGES/paintings/1989/1989_23.jpg',
-                'title': ''
+                'title': 'Untitled'
             }, {
                 'src': './media/IMAGES/paintings/1989/1989_24.jpg',
                 'description': '',
                 'dimensions': '',
                 'thumb': './media/IMAGES/paintings/1989/1989_24.jpg',
-                'title': ''
+                'title': 'Detail'
             }, {
                 'src': './media/IMAGES/paintings/1989/1989_25.jpg',
-                'description': '',
+                'description': 'dye on linen',
                 'dimensions': '',
                 'thumb': './media/IMAGES/paintings/1989/1989_25.jpg',
-                'title': ''
+                'title': 'Untitled'
             }, {
                 'src': './media/IMAGES/paintings/1989/1989_26.jpg',
                 'description': '',
                 'dimensions': '',
                 'thumb': './media/IMAGES/paintings/1989/1989_26.jpg',
-                'title': ''
+                'title': 'Detail'
             }, {
                 'src': './media/IMAGES/paintings/1989/1989_27.jpg',
-                'description': '',
-                'dimensions': '',
+                'description': 'Dye on linen',
+                'dimensions': 'L unknown R 36" x 28"',
                 'thumb': './media/IMAGES/paintings/1989/1989_27.jpg',
-                'title': ''
+                'title': 'Untitled (diptych)'
             }, {
                 'src': './media/IMAGES/paintings/1989/1989_28.jpg',
-                'description': '',
+                'description': 'Dye on linen',
                 'dimensions': '',
                 'thumb': './media/IMAGES/paintings/1989/1989_28.jpg',
-                'title': ''
+                'title': 'Untitled'
             }, {
                 'src': './media/IMAGES/paintings/1989/1989_29.jpg',
                 'description': '',
@@ -409,54 +409,55 @@ var m = {
                 'title': ''
             }, {
                 'src': './media/IMAGES/paintings/1989/1989_30.jpg',
-                'description': '',
-                'dimensions': '',
+                'description': 'dye on canvas',
+                'dimensions': '54" x 53"',
                 'thumb': './media/IMAGES/paintings/1989/1989_30.jpg',
-                'title': ''
+                'title': 'Untitled'
             }, {
                 'src': './media/IMAGES/paintings/1989/1989_31.jpg',
-                'description': '',
+                'description': 'Dye on linen',
                 'dimensions': '',
                 'thumb': './media/IMAGES/paintings/1989/1989_31.jpg',
-                'title': ''
-            }],
+                'title': 'Untitled'
+            }
+            ],
         '1990': [
             {
                 'src': './media/IMAGES/paintings/1990/1990_01.jpg',
-                'description': '',
-                'dimensions': '',
+                'description': 'dye and pigment on linen and wool',
+                'dimensions': '64" x 90"',
                 'thumb': './media/IMAGES/paintings/1990/1990_01.jpg',
-                'title': ''
+                'title': 'Untitled'
             }, {
                 'src': './media/IMAGES/paintings/1990/1990_02.jpg',
-                'description': '',
-                'dimensions': '',
+                'description': 'dye and pigment on linen',
+                'dimensions': '90" x 138"',
                 'thumb': './media/IMAGES/paintings/1990/1990_02.jpg',
-                'title': ''
+                'title': 'Untitled'
             }, {
                 'src': './media/IMAGES/paintings/1990/1990_03.jpg',
-                'description': '',
-                'dimensions': '',
+                'description': 'dye and pigment on linen and wool',
+                'dimensions': '64" x 90"',
                 'thumb': './media/IMAGES/paintings/1990/1990_03.jpg',
-                'title': ''
+                'title': 'Untitled'
             }, {
                 'src': './media/IMAGES/paintings/1990/1990_04.jpg',
-                'description': '',
+                'description': 'dye and pigment on linen',
                 'dimensions': '',
                 'thumb': './media/IMAGES/paintings/1990/1990_04.jpg',
-                'title': ''
+                'title': 'Untitled'
             }, {
                 'src': './media/IMAGES/paintings/1990/1990_05.jpg',
-                'description': '',
+                'description': 'dye and pigment on linen',
                 'dimensions': '',
                 'thumb': './media/IMAGES/paintings/1990/1990_05.jpg',
-                'title': ''
+                'title': 'Untitled'
             }, {
                 'src': './media/IMAGES/paintings/1990/1990_06.jpg',
-                'description': '',
+                'description': 'dye on linen',
                 'dimensions': '',
                 'thumb': './media/IMAGES/paintings/1990/1990_06.jpg',
-                'title': ''
+                'title': 'Untitled'
             }
         ]
     },
@@ -464,25 +465,25 @@ var m = {
         '1981': [
             {
                 'src': './media/IMAGES/textiles/1981/chandon_01.jpg',
-                'description': '',
+                'description': 'Textile commissioned by Moët & Chandon',
                 'dimensions': '',
                 'thumb': './media/IMAGES/textiles/1981/chandon_01.jpg',
                 'title': ''
             }, {
                 'src': './media/IMAGES/textiles/1981/chandon_02.jpg',
-                'description': '',
+                'description': 'Textile commissioned by Moët & Chandon',
                 'dimensions': '',
                 'thumb': './media/IMAGES/textiles/1981/chandon_02.jpg',
                 'title': ''
             }, {
                 'src': './media/IMAGES/textiles/1981/chandon_03.jpg',
-                'description': '',
+                'description': 'Textile commissioned by Moët & Chandon',
                 'dimensions': '',
                 'thumb': './media/IMAGES/textiles/1981/chandon_03.jpg',
                 'title': ''
             }, {
                 'src': './media/IMAGES/textiles/1981/chandon_04.jpg',
-                'description': '',
+                'description': 'Textile commissioned by Moët & Chandon',
                 'dimensions': '',
                 'thumb': './media/IMAGES/textiles/1981/chandon_04.jpg',
                 'title': ''
@@ -633,97 +634,97 @@ var m = {
                 'title': ''
             }, {
                 'src': './media/IMAGES/textiles/1983/textiles_1983_04.jpg',
-                'description': '',
+                'description': 'From "Three Person Show" at Art et Industrie gallery, NYC, NY',
                 'dimensions': '',
                 'thumb': './media/IMAGES/textiles/1983/textiles_1983_04.jpg',
                 'title': ''
             }, {
                 'src': './media/IMAGES/textiles/1983/textiles_1983_05.jpg',
-                'description': '',
+                'description': 'Detail, from "Three Person Show" at Art et Industrie gallery, NYC, NY',
                 'dimensions': '',
                 'thumb': './media/IMAGES/textiles/1983/textiles_1983_05.jpg',
                 'title': ''
             }, {
                 'src': './media/IMAGES/textiles/1983/textiles_1983_06.jpg',
-                'description': '',
+                'description': 'Detail, from "Three Person Show" at Art et Industrie gallery, NYC, NY',
                 'dimensions': '',
                 'thumb': './media/IMAGES/textiles/1983/textiles_1983_06.jpg',
                 'title': ''
             }, {
                 'src': './media/IMAGES/textiles/1983/textiles_1983_07.jpg',
-                'description': '',
+                'description': 'From "Three Person Show" at Art et Industrie gallery, NYC, NY',
                 'dimensions': '',
                 'thumb': './media/IMAGES/textiles/1983/textiles_1983_07.jpg',
                 'title': ''
             }, {
                 'src': './media/IMAGES/textiles/1983/textiles_1983_08.jpg',
-                'description': '',
+                'description': 'Detail, from "Three Person Show" at Art et Industrie gallery, NYC, NY',
                 'dimensions': '',
                 'thumb': './media/IMAGES/textiles/1983/textiles_1983_08.jpg',
                 'title': ''
             }, {
                 'src': './media/IMAGES/textiles/1983/textiles_1983_09.jpg',
-                'description': '',
+                'description': 'Detail, from "Three Person Show" at Art et Industrie gallery, NYC, NY',
                 'dimensions': '',
                 'thumb': './media/IMAGES/textiles/1983/textiles_1983_09.jpg',
                 'title': ''
             }, {
                 'src': './media/IMAGES/textiles/1983/textiles_1983_10.jpg',
-                'description': '',
+                'description': 'From "Three Person Show" at Art et Industrie gallery, NYC, NY',
                 'dimensions': '',
                 'thumb': './media/IMAGES/textiles/1983/textiles_1983_10.jpg',
                 'title': ''
             }, {
                 'src': './media/IMAGES/textiles/1983/textiles_1983_11.jpg',
-                'description': '',
+                'description': 'Detail, from "Three Person Show" at Art et Industrie gallery, NYC, NY',
                 'dimensions': '',
                 'thumb': './media/IMAGES/textiles/1983/textiles_1983_11.jpg',
                 'title': ''
             }, {
                 'src': './media/IMAGES/textiles/1983/textiles_1983_12.jpg',
-                'description': '',
+                'description': 'From "Three Person Show" at Art et Industrie gallery, NYC, NY',
                 'dimensions': '',
                 'thumb': './media/IMAGES/textiles/1983/textiles_1983_12.jpg',
                 'title': ''
             }, {
                 'src': './media/IMAGES/textiles/1983/textiles_1983_13.jpg',
-                'description': '',
+                'description': 'From "Three Person Show" at Art et Industrie gallery, NYC, NY',
                 'dimensions': '',
                 'thumb': './media/IMAGES/textiles/1983/textiles_1983_13.jpg',
                 'title': ''
             }, {
                 'src': './media/IMAGES/textiles/1983/textiles_1983_14.jpg',
-                'description': '',
+                'description': 'From "Three Person Show" at Art et Industrie gallery, NYC, NY',
                 'dimensions': '',
                 'thumb': './media/IMAGES/textiles/1983/textiles_1983_14.jpg',
                 'title': ''
             }, {
                 'src': './media/IMAGES/textiles/1983/textiles_1983_15.jpg',
-                'description': '',
+                'description': 'Detail, from "Three Person Show" at Art et Industrie gallery, NYC, NY',
                 'dimensions': '',
                 'thumb': './media/IMAGES/textiles/1983/textiles_1983_15.jpg',
                 'title': ''
             }, {
                 'src': './media/IMAGES/textiles/1983/textiles_1983_16.jpg',
-                'description': '',
+                'description': 'From "Three Person Show" at Art et Industrie gallery, NYC, NY',
                 'dimensions': '',
                 'thumb': './media/IMAGES/textiles/1983/textiles_1983_16.jpg',
                 'title': ''
             }, {
                 'src': './media/IMAGES/textiles/1983/textiles_1983_17.jpg',
-                'description': '',
+                'description': 'From "Three Person Show" at Art et Industrie gallery, NYC, NY',
                 'dimensions': '',
                 'thumb': './media/IMAGES/textiles/1983/textiles_1983_17.jpg',
                 'title': ''
             }, {
                 'src': './media/IMAGES/textiles/1983/textiles_1983_18.jpg',
-                'description': '',
+                'description': 'From "Three Person Show" at Art et Industrie gallery, NYC, NY',
                 'dimensions': '',
                 'thumb': './media/IMAGES/textiles/1983/textiles_1983_18.jpg',
                 'title': ''
             }, {
                 'src': './media/IMAGES/textiles/1983/textiles_1983_19.jpg',
-                'description': '',
+                'description': 'From "Three Person Show" at Art et Industrie gallery, NYC, NY',
                 'dimensions': '',
                 'thumb': './media/IMAGES/textiles/1983/textiles_1983_19.jpg',
                 'title': ''
@@ -753,49 +754,49 @@ var m = {
         'misc': [
             {
                 'src': './media/IMAGES/textiles/misc/textiles_misc_01.jpg',
-                'description': '',
+                'description': 'Dye and pigment on velvet',
                 'dimensions': '',
                 'thumb': './media/IMAGES/textiles/misc/textiles_misc_01.jpg',
                 'title': ''
             }, {
                 'src': './media/IMAGES/textiles/misc/textiles_misc_02.jpg',
-                'description': '',
+                'description': 'Dye and pigment on velvet',
                 'dimensions': '',
                 'thumb': './media/IMAGES/textiles/misc/textiles_misc_02.jpg',
                 'title': ''
             }, {
                 'src': './media/IMAGES/textiles/misc/textiles_misc_03.jpg',
-                'description': '',
+                'description': 'Dye and pigment on velvet',
                 'dimensions': '',
                 'thumb': './media/IMAGES/textiles/misc/textiles_misc_03.jpg',
                 'title': ''
             }, {
                 'src': './media/IMAGES/textiles/misc/textiles_misc_04.jpg',
-                'description': '',
+                'description': 'Dye and pigment on velvet',
                 'dimensions': '',
                 'thumb': './media/IMAGES/textiles/misc/textiles_misc_04.jpg',
                 'title': ''
             }, {
                 'src': './media/IMAGES/textiles/misc/textiles_misc_05.jpg',
-                'description': '',
+                'description': 'Dye and pigment on velvet',
                 'dimensions': '',
                 'thumb': './media/IMAGES/textiles/misc/textiles_misc_05.jpg',
                 'title': ''
             }, {
                 'src': './media/IMAGES/textiles/misc/textiles_misc_06.jpg',
-                'description': '',
+                'description': 'Dye and pigment on velvet',
                 'dimensions': '',
                 'thumb': './media/IMAGES/textiles/misc/textiles_misc_06.jpg',
                 'title': ''
             }, {
                 'src': './media/IMAGES/textiles/misc/textiles_misc_07.jpg',
-                'description': '',
+                'description': 'Dye and pigment on velvet',
                 'dimensions': '',
                 'thumb': './media/IMAGES/textiles/misc/textiles_misc_07.jpg',
                 'title': ''
             }, {
                 'src': './media/IMAGES/textiles/misc/textiles_misc_08.jpg',
-                'description': '',
+                'description': 'Dye and pigment on velvet',
                 'dimensions': '',
                 'thumb': './media/IMAGES/textiles/misc/textiles_misc_08.jpg',
                 'title': ''
@@ -842,13 +843,13 @@ var m = {
         'misc': [
             {
                 'src': './media/IMAGES/furniture/misc/Furniture_01.jpg',
-                'description': '',
+                'description': 'Danger from Japan, Art et Industrie',
                 'dimensions': '',
                 'thumb': './media/IMAGES/furniture/misc/Furniture_01.jpg',
                 'title': ''
             }, {
                 'src': './media/IMAGES/furniture/misc/Furniture_02.jpg',
-                'description': '',
+                'description': 'Danger from Japan, Art et Industrie',
                 'dimensions': '',
                 'thumb': './media/IMAGES/furniture/misc/Furniture_02.jpg',
                 'title': ''
@@ -908,13 +909,13 @@ var m = {
                 'title': ''
             }, {
                 'src': './media/IMAGES/furniture/misc/Furniture_12.jpg',
-                'description': '',
+                'description': 'Art et Industrie',
                 'dimensions': '',
                 'thumb': './media/IMAGES/furniture/misc/Furniture_12.jpg',
                 'title': ''
             }, {
                 'src': './media/IMAGES/furniture/misc/Furniture_13.jpg',
-                'description': '',
+                'description': 'Art et Industrie',
                 'dimensions': '',
                 'thumb': './media/IMAGES/furniture/misc/Furniture_13.jpg',
                 'title': ''
@@ -930,79 +931,79 @@ var m = {
     'press': [
         {
             'src': './media/IMAGES/press/misc/Press_01.jpg',
-            'description': '',
+            'description': 'Catalog image from "Design Legacies: A Tribute to Architects and Designers Who Have Died of AIDS," Gallery 91, New York City, 1994',
             'dimensions': '',
             'thumb': './media/IMAGES/press/misc/Press_01.jpg',
             'title': ''
         }, {
             'src': './media/IMAGES/press/misc/Press_02.jpg',
-            'description': '',
+            'description': '“New York: Kunst-Möbel Aus Der Neuen Welt” (“New York: Art Furniture from the New World”); Architektur & Wohnen, March 1985',
             'dimensions': '',
             'thumb': './media/IMAGES/press/misc/Press_02.jpg',
             'title': ''
         }, {
             'src': './media/IMAGES/press/misc/Press_03.jpg',
-            'description': '',
+            'description': '“Blow-up on ’85 Furniture”; ABITARE, N. 237, September 1985\n',
             'dimensions': '',
             'thumb': './media/IMAGES/press/misc/Press_03.jpg',
             'title': ''
         }, {
             'src': './media/IMAGES/press/misc/Press_04.jpg',
-            'description': '',
+            'description': '“Photo Finish”; Women’s Wear Daily, Wednesday, March 18, 1981',
             'dimensions': '',
             'thumb': './media/IMAGES/press/misc/Press_04.jpg',
             'title': ''
         }, {
             'src': './media/IMAGES/press/misc/Press_05.jpg',
-            'description': '',
+            'description': '“Blowups and Silk Screens”; The New York Times, March 12, 1981\n',
             'dimensions': '',
             'thumb': './media/IMAGES/press/misc/Press_05.jpg',
             'title': ''
         }, {
             'src': './media/IMAGES/press/misc/Press_06.jpg',
-            'description': '',
+            'description': 'Exhibition Catalog of Textiles for the Eighties, curated by Maria Tulokas, Museum of Art, Rhode Island School of Design, Providence, Rhode Island. January 4 to February 7, 1985',
             'dimensions': '',
             'thumb': './media/IMAGES/press/misc/Press_06.jpg',
             'title': ''
         }, {
             'src': './media/IMAGES/press/misc/Press_07.jpg',
-            'description': '',
+            'description': 'From the back cover of the Exhibition Catalog of Textiles for the Eighties',
             'dimensions': '',
             'thumb': './media/IMAGES/press/misc/Press_07.jpg',
             'title': ''
         }, {
             'src': './media/IMAGES/press/misc/Press_08.jpg',
-            'description': '',
+            'description': 'Exhibition Catalog of Surface Design, Fashion Institute of Technology, New York City, New York, March 31 to May 3, 1980.',
             'dimensions': '',
             'thumb': './media/IMAGES/press/misc/Press_08.jpg',
             'title': ''
         }, {
             'src': './media/IMAGES/press/misc/Press_09.jpg',
-            'description': '',
+            'description': 'Exhibition Catalog of Het Portret: De mens als onuitputtelijk onderwerp (The Portrait: Man as an inexhaustible subject); Internationale Expositie Van Portretfotografie In Acht Amsterdamse Galeries (International Exhibition of Portrait Photography in Eight Amsterdam Galleries), 1989',
             'dimensions': '',
             'thumb': './media/IMAGES/press/misc/Press_09.jpg',
             'title': ''
         }, {
             'src': './media/IMAGES/press/misc/Press_10.jpg',
-            'description': '',
+            'description': '“In Memoriam: AIDS and Fashion”; The New Yorker, November 7, 1994\n',
             'dimensions': '',
             'thumb': './media/IMAGES/press/misc/Press_10.jpg',
             'title': ''
         }, {
             'src': './media/IMAGES/press/misc/Press_11.jpg',
-            'description': '',
+            'description': 'Advertisement for solo exhibition at Art et Industrie, New York City, New York; published in Arts Magazine, May 1985',
             'dimensions': '',
             'thumb': './media/IMAGES/press/misc/Press_11.jpg',
             'title': ''
         }, {
             'src': './media/IMAGES/press/misc/Press_12.jpg',
-            'description': '',
+            'description': 'Poster for “Hard Life,” group exhibition at White Columns, New York City, New York, 1989',
             'dimensions': '',
             'thumb': './media/IMAGES/press/misc/Press_12.jpg',
             'title': ''
         }, {
             'src': './media/IMAGES/press/misc/Press_13.jpg',
-            'description': '',
+            'description': 'Press release for “House on the Borderline,” group exhibition curated by Claudia Hart at White Columns, New York City, New York, 1984',
             'dimensions': '',
             'thumb': './media/IMAGES/press/misc/Press_13.jpg',
             'title': ''
@@ -1015,7 +1016,7 @@ var m = {
             'description': '',
             'dimensions': '',
             'thumb': './media/IMAGES/bio/cv.jpg',
-            'title': 'CV'
+            'title': 'M. Clark Robertson CV'
         },
     ]
 }

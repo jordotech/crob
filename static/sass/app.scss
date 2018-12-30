@@ -17,8 +17,11 @@ h1 {
 }
 
 .bullets {
+  text-align:center;
+  ;
   @media (min-width: 768px) {
     margin-top: 5px;
+    text-align:left
   }
 }
 
@@ -420,5 +423,5 @@ h2 {
 }
 
 .phil-top {
-  padding-left: 30px;
+  //padding-left: 30px;
 }

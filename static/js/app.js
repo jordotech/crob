@@ -1,104 +1,5 @@
-var m = {
-    "paintings": {
-        "1987": [{
-            "src": "./media/IMAGES/paintings/1987/1987_01.jpg",
-            "dimensions": "",
-            "description": "",
-            "title": ""
-        }, {
-            "src": "./media/IMAGES/paintings/1987/1987_02.jpg",
-            "dimensions": "",
-            "description": "",
-            "title": ""
-        }, {
-            "src": "./media/IMAGES/paintings/1987/1987_03.jpg",
-            "dimensions": "",
-            "description": "",
-            "title": ""
-        }, {
-            "src": "./media/IMAGES/paintings/1987/1987_04.jpg",
-            "dimensions": "",
-            "description": "",
-            "title": ""
-        }, {
-            "src": "./media/IMAGES/paintings/1987/1987_05.jpg",
-            "dimensions": "",
-            "description": "",
-            "title": ""
-        }, {
-            "src": "./media/IMAGES/paintings/1987/1987_06.jpg",
-            "dimensions": "",
-            "description": "",
-            "title": ""
-        }, {
-            "src": "./media/IMAGES/paintings/1987/1987_07.jpg",
-            "dimensions": "",
-            "description": "",
-            "title": ""
-        }, {
-            "src": "./media/IMAGES/paintings/1987/1987_08.jpg",
-            "dimensions": "",
-            "description": "",
-            "title": ""
-        }, {
-            "src": "./media/IMAGES/paintings/1987/1987_09.jpg",
-            "dimensions": "",
-            "description": "",
-            "title": ""
-        }, {
-            "src": "./media/IMAGES/paintings/1987/1987_10.jpg",
-            "dimensions": "",
-            "description": "",
-            "title": ""
-        }, {
-            "src": "./media/IMAGES/paintings/1987/1987_11.jpg",
-            "dimensions": "",
-            "description": "",
-            "title": ""
-        }, {
-            "src": "./media/IMAGES/paintings/1987/1987_12.jpg",
-            "dimensions": "",
-            "description": "",
-            "title": ""
-        }, {
-            "src": "./media/IMAGES/paintings/1987/1987_13.jpg",
-            "dimensions": "",
-            "description": "",
-            "title": ""
-        }, {
-            "src": "./media/IMAGES/paintings/1987/1987_14.jpg",
-            "dimensions": "",
-            "description": "",
-            "title": ""
-        }, {
-            "src": "./media/IMAGES/paintings/1987/1987_15.jpg",
-            "dimensions": "",
-            "description": "",
-            "title": ""
-        }, {
-            "src": "./media/IMAGES/paintings/1987/1987_16.jpg",
-            "dimensions": "",
-            "description": "",
-            "title": ""
-        }, {
-            "src": "./media/IMAGES/paintings/1987/1987_17.jpg",
-            "dimensions": "",
-            "description": "",
-            "title": ""
-        }, {
-            "src": "./media/IMAGES/paintings/1987/1987_18.jpg",
-            "dimensions": "",
-            "description": "",
-            "title": ""
-        }, {"src": "./media/IMAGES/paintings/1987/1987_19.jpg", "dimensions": "", "description": "", "title": ""}],
-        "1988": [],
-        "1989": [],
-        "1990": []
-    }
-}
-/*
-var animateApp = angular.module('animateApp', ['ngRoute', 'ngAnimate']);
-*/
+
+
 var app = angular.module('App', [
     'ngRoute',
     'ngAnimate',
@@ -120,7 +21,7 @@ app.config(["$routeProvider", "$locationProvider", function ($routeProvider, $lo
             templateUrl: 'templates/page-works.html',
             controller: 'worksController'
         })
-        .when('/works/:section/:year', {
+        .when('/works/:section/:sub_section', {
             templateUrl: 'templates/page-works.html',
             controller: 'worksController'
         })
@@ -135,10 +36,31 @@ app.config(["$routeProvider", "$locationProvider", function ($routeProvider, $lo
 angular.module('App.Controllers', [])
 
     .controller('worksController', ['$scope', '$routeParams', function ($scope, $routeParams) {
-        $scope.year = $routeParams.year;
-        console.log($routeParams);
-        $scope.items = m.images;
+        $scope.section = $routeParams.section;
+        $scope.sub_section = $routeParams.sub_section;
+        console.log($scope.sub_section);
         $scope.pageClass = 'page-works';
+        if ($scope.section) {
+            $scope.subSections = Array();
+            $scope.pageName = $scope.section;
+            var _section = m[$scope.section];
+            for (var key in _section) {
+                    $scope.subSections.push(key);
+            }
+            console.log($scope.subSections);
+            if($scope.sub_section){
+                    $scope.items = m[$scope.section][$scope.sub_section];
+                    console.log($scope.items);
+                    $scope.pageName = $scope.section + ', ' + $scope.sub_section
+                }else{
+
+
+                }
+        } else {
+            $scope.pageName = '';
+        }
+
+
     }])
     .controller('headerController', function ($scope, $location) {
 
@@ -151,8 +73,6 @@ angular.module('App.Controllers', [])
 
         $scope.pageClass = 'page-home';
     })
-
-
 
 
 $(function () {

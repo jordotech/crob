@@ -9,6 +9,7 @@ h1 {
   h1 {
     font-size: 60px;
   }
+
   a {
     margin-top: 50px;
   }
@@ -32,6 +33,7 @@ h1 {
   &.ng-leave {
     z-index: 9999;
   }
+
   &.ng-enter {
     z-index: 8888;
   }
@@ -42,7 +44,9 @@ h1 {
 /* home -------------------------- */
 
 .page-home, .page-images, .page-stills {
-  &.ng-leave {}
+  &.ng-leave {
+  }
+
   &.ng-enter {
     -webkit-animation-name: fadeIn;
     animation: fadeIn .5s both ease-in;
@@ -330,6 +334,7 @@ video:hover {
 
 a {
   color: #000;
+
   &:hover {
     color: #000;
   }
@@ -385,8 +390,11 @@ a {
   color: #333 !important;
 }
 
-nav a.active {
-  text-decoration: underline;
+nav {
+  a.active {
+    text-decoration: underline;
+  }
+  margin-bottom:0px !important;
 }
 
 .panel {

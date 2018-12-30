@@ -1,5 +1,3 @@
-
-
 var app = angular.module('App', [
     'ngRoute',
     'ngAnimate',
@@ -25,6 +23,11 @@ app.config(["$routeProvider", "$locationProvider", function ($routeProvider, $lo
             templateUrl: 'templates/page-works.html',
             controller: 'worksController'
         })
+        .when('/press', {
+            templateUrl: 'templates/page-works.html',
+            controller: 'pressController'
+        })
+
         .when('/bio', {
             templateUrl: 'templates/page-bio.html',
             controller: 'worksController'
@@ -38,30 +41,41 @@ angular.module('App.Controllers', [])
     .controller('worksController', ['$scope', '$routeParams', function ($scope, $routeParams) {
         $scope.section = $routeParams.section;
         $scope.sub_section = $routeParams.sub_section;
-        console.log($scope.sub_section);
+        $scope.showSubsections = false;
         $scope.pageClass = 'page-works';
         if ($scope.section) {
             $scope.subSections = Array();
             $scope.pageName = $scope.section;
             var _section = m[$scope.section];
             for (var key in _section) {
-                    $scope.subSections.push(key);
+                $scope.subSections.push({
+                    'name': key,
+                    'href': '#works/' + $scope.section + '/' + key
+                });
             }
-            console.log($scope.subSections);
-            if($scope.sub_section){
-                    $scope.items = m[$scope.section][$scope.sub_section];
-                    $scope.pageName = $scope.section + ', ' + $scope.sub_section
-                }else{
-                    if($scope.subSections.length == 1){
-                        $scope.items = m[$scope.section]['misc'];
-
-                    }
-
+            if ($scope.sub_section) {
+                $scope.items = m[$scope.section][$scope.sub_section];
+                $scope.pageName = $scope.section + ', ' + $scope.sub_section
+            } else {
+                if ($scope.subSections.length == 1) {
+                    $scope.items = m[$scope.section]['misc'];
                 }
+            }
+            if($scope.subSections.length > 0 && !$scope.sub_section){
+                $scope.showSubsections = true;
+            }
         } else {
             $scope.pageName = '';
         }
 
+
+    }])
+    .controller('pressController', ['$scope', '$routeParams', function ($scope, $routeParams) {
+
+        $scope.pageClass = 'page-works';
+        $scope.pageName = "Press";
+        $scope.items = m['press'];
+        console.log($scope.items);
 
     }])
     .controller('headerController', function ($scope, $location) {

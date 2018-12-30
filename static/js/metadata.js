@@ -926,5 +926,86 @@ var m = {
                 "title": ""
             }
         ],
-    }
+    },
+    "press": [
+        {
+            "src": "./media/IMAGES/press/misc/Press_01.jpg",
+            "description": "",
+            "dimensions": "",
+            "thumb": "./media/IMAGES/press/misc/Press_01.jpg",
+            "title": ""
+        }, {
+            "src": "./media/IMAGES/press/misc/Press_02.jpg",
+            "description": "",
+            "dimensions": "",
+            "thumb": "./media/IMAGES/press/misc/Press_02.jpg",
+            "title": ""
+        }, {
+            "src": "./media/IMAGES/press/misc/Press_03.jpg",
+            "description": "",
+            "dimensions": "",
+            "thumb": "./media/IMAGES/press/misc/Press_03.jpg",
+            "title": ""
+        }, {
+            "src": "./media/IMAGES/press/misc/Press_04.jpg",
+            "description": "",
+            "dimensions": "",
+            "thumb": "./media/IMAGES/press/misc/Press_04.jpg",
+            "title": ""
+        }, {
+            "src": "./media/IMAGES/press/misc/Press_05.jpg",
+            "description": "",
+            "dimensions": "",
+            "thumb": "./media/IMAGES/press/misc/Press_05.jpg",
+            "title": ""
+        }, {
+            "src": "./media/IMAGES/press/misc/Press_06.jpg",
+            "description": "",
+            "dimensions": "",
+            "thumb": "./media/IMAGES/press/misc/Press_06.jpg",
+            "title": ""
+        }, {
+            "src": "./media/IMAGES/press/misc/Press_07.jpg",
+            "description": "",
+            "dimensions": "",
+            "thumb": "./media/IMAGES/press/misc/Press_07.jpg",
+            "title": ""
+        }, {
+            "src": "./media/IMAGES/press/misc/Press_08.jpg",
+            "description": "",
+            "dimensions": "",
+            "thumb": "./media/IMAGES/press/misc/Press_08.jpg",
+            "title": ""
+        }, {
+            "src": "./media/IMAGES/press/misc/Press_09.jpg",
+            "description": "",
+            "dimensions": "",
+            "thumb": "./media/IMAGES/press/misc/Press_09.jpg",
+            "title": ""
+        }, {
+            "src": "./media/IMAGES/press/misc/Press_10.jpg",
+            "description": "",
+            "dimensions": "",
+            "thumb": "./media/IMAGES/press/misc/Press_10.jpg",
+            "title": ""
+        }, {
+            "src": "./media/IMAGES/press/misc/Press_11.jpg",
+            "description": "",
+            "dimensions": "",
+            "thumb": "./media/IMAGES/press/misc/Press_11.jpg",
+            "title": ""
+        }, {
+            "src": "./media/IMAGES/press/misc/Press_12.jpg",
+            "description": "",
+            "dimensions": "",
+            "thumb": "./media/IMAGES/press/misc/Press_12.jpg",
+            "title": ""
+        }, {
+            "src": "./media/IMAGES/press/misc/Press_13.jpg",
+            "description": "",
+            "dimensions": "",
+            "thumb": "./media/IMAGES/press/misc/Press_13.jpg",
+            "title": ""
+        }
+    ],
 }

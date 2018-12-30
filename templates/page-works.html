@@ -1,6 +1,13 @@
 <div class="container">
     <h2>{{pageName | uppercase}}</h2>
 
+    <div class="list-group" ng-if="showSubsections">
+        <a ng-href="{{item.href}}" class="list-group-item" ng-repeat="item in subSections track by $index"
+           ng-if="subSections && subSections.length > 1">
+            <h3>{{ item.name | uppercase }}</h3>
+        </a>
+    </div>
+
     <div class="row" ng-repeat="item in items track by $index" ng-if="items && $index % 4 == 0">
         <div ng-repeat="i in [$index, $index + 1, $index + 2, $index + 3]"
              ng-if="items[i] != null">

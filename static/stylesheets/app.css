@@ -9,10 +9,6 @@ h1 {
 .page h1 {
   font-size: 60px;
 }
-/* line 13, ../sass/app.scss */
-.page a {
-  margin-top: 50px;
-}
 
 /* line 18, ../sass/app.scss */
 #images {

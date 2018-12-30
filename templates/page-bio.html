@@ -1,29 +1,23 @@
 <div class="container">
-    <h2>IMAGES</h2>
+    <h2>BIOGRAPHY</h2>
 
-    <div class="row image-grid" ng-repeat="item in items track by $index" ng-if="$index % 4 == 0">
-        <div ng-repeat="i in [$index, $index + 1, $index + 2, $index + 3]"
-             ng-if="items[i] != null">
-            <div class="col-xs-12 col-sm-6 col-md-3 page-grid">
-                <div class="panel" data-toggle="modal" data-target="#myModal">
-                    <div class="album-img panel-body text-center">
-                        <img class="img-responsive" ng-src="{{ items[i].thumb }}"/>
-                    </div>
-                    <div class="text-center panel-footer">
-                        <h5 class="title">{{ items[i].title }}</h5>
-                        <div class="text-muted small description">
-                            {{ items[i].description }}<br/>{{ items[i].dimensions }}
-                        </div>
-                        <div class="full-res-link" style="display:none;">
-                            <a href="{{ items[i].src }}" target="_blank">Full Resolution.
-                                <span class="glyphicon glyphicon-new-window" aria-hidden="true"></span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
+    <div class="row">
+        <div class="col-md-6 well">
+            At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti
+            atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique
+            sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum
+            facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil
+            impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor
+            repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et
+            voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus,
+            ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.
 
         </div>
+  <div class="col-md-6">
+
+
+
+  </div>
+
     </div>
 </div>

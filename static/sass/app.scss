@@ -17,23 +17,24 @@ h1 {
 }
 
 .bullets {
-  text-align:center;
+  text-align: center;
   font-weight: bold;
   @media (min-width: 768px) {
     margin-top: 5px;
-    text-align:left
+    text-align: left;
   }
 }
 
 .works-button-group {
 
-  .btn{
-    font-size: 22px !important;
+  .btn {
+    font-size: 15px !important;
     font-weight: bold;
-    color:#fff !important;
-    background-color:#222 !important;
-    &:hover{
-      background-color:#d4d4d4 !important;
+    color: #fff !important;
+    background-color: #222 !important;
+
+    &:hover {
+      background-color: #d4d4d4 !important;
     }
   }
 
@@ -434,7 +435,6 @@ h2 {
 }
 
 
-
 #jumpToTopButton {
   display: none;
   position: fixed;
@@ -445,8 +445,8 @@ h2 {
   border: none;
   outline: none;
   background-color: #fff;
-  border:1px solid #555;
-  color:#000;
+  border: 1px solid #555;
+  color: #000;
   cursor: pointer;
   padding: 15px;
   border-radius: 4px;

@@ -3,21 +3,49 @@
 
 
     <div class="btn-group btn-group-lg btn-group-justified works-button-group">
-        <a ng-href="#{{item.href}}" class="btn btn-default" ng-class="{ active: isActive(item.href)}" ng-repeat="item in subSections track by $index"
+        <a class="btn btn-default" scroll-on-click scroll_id="#subsection-{{item.name}}"
+           ng-repeat="item in subSections track by $index"
            ng-if="subSections && subSections.length > 1">
             {{ item.name | uppercase }}
         </a>
 
-</div>
+    </div>
 
-<div class="row well text-center" ng-if="page_description">
+    <div class="row well text-center" ng-if="page_description">
+        {{page_description}}
+    </div>
 
-    {{page_description}}
-</div>
+    <div ng-if="items_with_subs" class="row" ng-repeat="(key, _items) in items_with_subs">
+        <div id="subsection-{{key}}"></div>
+        <hr/>
+        <h2 class="text-center" id="{{key}}">{{key}}</h2>
+        <hr/>
+        <div class="row" ng-repeat="item in _items track by $index" ng-if="_items && $index % 4 == 0">
+            <div ng-repeat="i in [$index, $index + 1, $index + 2, $index + 3]"
+                 ng-if="_items[i] != null">
+                <div class="col-xs-12 col-sm-6 col-md-3 page-grid">
+                    <div class="panel" data-toggle="modal" data-target="#myModal">
+                        <div class="album-img panel-body text-center">
+                            <img class="img-responsive" ng-src="{{ _items[i].thumb }}"/>
+                        </div>
+                        <div class="text-center panel-footer">
+                            <h5 class="title">{{ _items[i].title }}</h5>
+                            <div class="text-muted small description">
+                                {{ _items[i].description }}<br/>{{ _items[i].dimensions }}
+                            </div>
+                            <div class="full-res-link" style="display:none;">
+                                <a href="{{ _items[i].src }}" target="_blank">Full Resolution.
+                                    <span class="glyphicon glyphicon-new-window" aria-hidden="true"></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
 
+                </div>
 
-
-</div>
+            </div>
+        </div>
+    </div>
     <div class="row" ng-repeat="item in items track by $index" ng-if="items && $index % 4 == 0">
         <div ng-repeat="i in [$index, $index + 1, $index + 2, $index + 3]"
              ng-if="items[i] != null">
@@ -43,4 +71,5 @@
 
         </div>
     </div>
+
 </div>

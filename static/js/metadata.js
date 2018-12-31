@@ -839,8 +839,8 @@ var m = {
             }
         ],
     },
-    'furniture': {
-        'misc': [
+    'furniture': [
+
             {
                 'src': './media/IMAGES/furniture/misc/Furniture_01.jpg',
                 'description': 'Danger from Japan, Art et Industrie',
@@ -926,8 +926,8 @@ var m = {
                 'thumb': './media/IMAGES/furniture/misc/Furniture_14.jpg',
                 'title': ''
             }
-        ],
-    },
+
+    ],
     'press': [
         {
             'src': './media/IMAGES/press/misc/Press_01.jpg',

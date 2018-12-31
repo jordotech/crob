@@ -1,0 +1,46 @@
+<div class="container">
+    <h3><span>{{section | uppercase }}</span><span ng-if="sub_section"> / {{sub_section}}</span></h3>
+
+
+    <div class="btn-group btn-group-lg btn-group-justified works-button-group">
+        <a ng-href="#{{item.href}}" class="btn btn-default" ng-class="{ active: isActive(item.href)}"
+           ng-repeat="item in subSections track by $index"
+           ng-if="subSections && subSections.length > 1">
+            {{ item.name | uppercase }}
+        </a>
+
+    </div>
+
+    <div class="row well text-center" ng-if="page_description">
+
+        {{page_description}}
+    </div>
+
+    <div class="row" ng-repeat="item in items track by $index" ng-if="items && $index % 2 == 0">
+        <div ng-repeat="i in [$index, $index + 1]"
+             ng-if="items[i] != null">
+            <div class="col-xs-12 col-sm-6 page-grid">
+                <div class="panel" data-toggle="modal" data-target="#myModal">
+                    <div class="album-img panel-body text-center">
+                        <img class="img-responsive" ng-src="{{ items[i].thumb }}"/>
+                    </div>
+                    <div class="text-center panel-footer">
+                        <h5 class="title">{{ items[i].title }}</h5>
+                        <div class="text-muted small description">
+                            {{ items[i].description }}<br/>{{ items[i].dimensions }}
+                        </div>
+                        <div class="full-res-link" style="display:none;">
+                            <a href="{{ items[i].src }}" target="_blank">Full Resolution.
+                                <span class="glyphicon glyphicon-new-window" aria-hidden="true"></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</div>
+
+</div>

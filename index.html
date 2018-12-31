@@ -3,6 +3,7 @@
 <head>
     <meta charset="utf-8">
     <script src="./static/jquery.js"></script>
+    <script src="./static/jquery.scrollTo/jquery.scrollTo.min.js"></script>
     <title>M. Clark Robertson</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content=""/>
@@ -46,9 +47,9 @@
                     <div class="row bullets">
                         <div class="col-xs-4 col-md-12"><a href="/#/bio" ng-class="{ active: isActive('/bio')}">BIOGRAPHY</a>
                         </div>
-                        <div class="col-xs-4 col-md-12"><a href="/#/works/paintings/1987" ng-class="{ active: isActive('/works/paintings')}">PAINTINGS</a>
+                        <div class="col-xs-4 col-md-12"><a href="/#/works/paintings/" ng-class="{ active: isActive('/works/paintings')}">PAINTINGS</a>
                         </div>
-                        <div class="col-xs-4 col-md-12"><a href="/#/works/textiles/1981" ng-class="{ active: isActive('/works/textiles')}">TEXTILES</a>
+                        <div class="col-xs-4 col-md-12"><a href="/#/works/textiles/" ng-class="{ active: isActive('/works/textiles')}">TEXTILES</a>
                         </div>
                     </div>
                 </div>
@@ -65,6 +66,7 @@
 </nav>
 
 <div class="">
+    <button onclick="topFunction()" id="jumpToTopButton" title="Go to top"><i class="fa fa-chevron-up"></i></button>
     <div class="page {{ pageClass }}" ng-view></div>
     <div class="modal fade " id="myModal" role="dialog" aria-labelledby="myModalLabel">
         <div class="modal-dialog modal-lg" role="document">

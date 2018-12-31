@@ -1,7 +1,8 @@
 var app = angular.module('App', [
     'ngRoute',
     'ngAnimate',
-    'App.Controllers'
+    'App.Controllers',
+    'App.Directives',
 ]);
 
 
@@ -15,16 +16,14 @@ app.config(["$routeProvider", "$locationProvider", function ($routeProvider, $lo
             templateUrl: 'templates/page-works.html',
             controller: 'worksController'
         })
+
         .when('/works/:section', {
             templateUrl: 'templates/page-works.html',
             controller: 'worksController'
         })
-        .when('/works/:section/:sub_section', {
-            templateUrl: 'templates/page-works.html',
-            controller: 'worksController'
-        })
+
         .when('/press', {
-            templateUrl: 'templates/page-works.html',
+            templateUrl: 'templates/page-press.html',
             controller: 'pressController'
         })
 
@@ -35,7 +34,27 @@ app.config(["$routeProvider", "$locationProvider", function ($routeProvider, $lo
 
 
 }]);
-
+angular.module('App.Directives', []).directive('scrollOnClick', function() {
+  return {
+    restrict: 'A',
+    link: function(scope, $elm, attrs) {
+      var idToScroll = attrs.scrollId;
+      $elm.on('click', function() {
+          console.log(attrs);
+        var $target;
+        if (idToScroll) {
+          $target = $(idToScroll);
+          console.log($target, '$target');
+        } else {
+          $target = $elm;
+        }
+        console.log($target.offset().top);
+        $('body').scrollTo($target.offset().top - 100, 'slow');
+        //$("body").animate({scrollTop: $target.offset().top}, "slow");
+      });
+    }
+  }
+});
 angular.module('App.Controllers', [])
 
     .controller('worksController', ['$scope', '$routeParams', '$location', function ($scope, $routeParams, $location) {
@@ -51,21 +70,25 @@ angular.module('App.Controllers', [])
         if ($scope.section) {
             $scope.subSections = Array();
             $scope.pageName = $scope.section;
-            var _section = m[$scope.section];
+
+            if ($scope.sub_section) {
+                if($scope.section == 'textiles' && $scope.sub_section == '1982'){
+                    $scope.page_description = "All images feature fabrics designed by M. Clark Robertson for textile " +
+                        "company China Seas; photographs taken in Cambodia in collaboration with Inger McCabe Elliott"
+                }
+            } else {
+                if($scope.section == 'furniture'){
+                    $scope.items = m[$scope.section];
+                }else{
+                    var _section = m[$scope.section];
             for (var key in _section) {
                 $scope.subSections.push({
                     'name': key,
                     'href': '/works/' + $scope.section + '/' + key
                 });
             }
-            if ($scope.sub_section) {
-                if($scope.section == 'textiles' && $scope.sub_section == '1982'){
-                    $scope.page_description = "All images feature fabrics designed by M. Clark Robertson for textile " +
-                        "company China Seas; photographs taken in Cambodia in collaboration with Inger McCabe Elliott"
+                    $scope.items_with_subs = m[$scope.section];
                 }
-                $scope.items = m[$scope.section][$scope.sub_section];
-                $scope.pageName = $scope.section + ', ' + $scope.sub_section
-            } else {
                 if ($scope.subSections.length == 1) {
                     $scope.items = m[$scope.section]['misc'];
                 }
@@ -115,3 +138,18 @@ $(function () {
     });
 })
 
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("jumpToTopButton").style.display = "block";
+  } else {
+    document.getElementById("jumpToTopButton").style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}

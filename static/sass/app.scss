@@ -18,7 +18,7 @@ h1 {
 
 .bullets {
   text-align:center;
-  ;
+  font-weight: bold;
   @media (min-width: 768px) {
     margin-top: 5px;
     text-align:left
@@ -65,7 +65,7 @@ h1 {
 
 /* home -------------------------- */
 
-.page-home, .page-images, .page-stills {
+.page-home, .page-images {
   &.ng-leave {
   }
 
@@ -422,6 +422,25 @@ h2 {
   padding-left: 15px;
 }
 
-.phil-top {
-  //padding-left: 30px;
+
+
+#jumpToTopButton {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #fff;
+  border:1px solid #555;
+  color:#000;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+
+  &:hover {
+    background-color: #adadad;
+  }
 }

@@ -38,8 +38,19 @@
 .works-button-group {
   margin-bottom: 15px;
 }
+/* line 30, ../sass/app.scss */
+.works-button-group .btn {
+  font-size: 22px !important;
+  font-weight: bold;
+  color: #fff !important;
+  background-color: #222 !important;
+}
+/* line 35, ../sass/app.scss */
+.works-button-group .btn:hover {
+  background-color: #d4d4d4 !important;
+}
 
-/* line 40, ../sass/app.scss */
+/* line 51, ../sass/app.scss */
 #images {
   color: #333;
   position: absolute;
@@ -52,18 +63,18 @@
 ============================================================================= */
 /* ANIMATIONS
 ============================================================================= */
-/* line 55, ../sass/app.scss */
+/* line 66, ../sass/app.scss */
 .page.ng-leave {
   z-index: 9999;
 }
-/* line 59, ../sass/app.scss */
+/* line 70, ../sass/app.scss */
 .page.ng-enter {
   z-index: 8888;
 }
 
 /* page specific animations ------------------------ */
 /* home -------------------------- */
-/* line 72, ../sass/app.scss */
+/* line 83, ../sass/app.scss */
 .page-home.ng-enter, .page-images.ng-enter {
   -webkit-animation-name: fadeIn;
   animation: fadeIn .5s both ease-in;
@@ -270,96 +281,96 @@
     opacity: 1;
   }
 }
-/* line 347, ../sass/app.scss */
+/* line 358, ../sass/app.scss */
 body {
   padding-top: 120px;
   background: #fff;
   color: #000;
 }
 
-/* line 353, ../sass/app.scss */
+/* line 364, ../sass/app.scss */
 video:hover {
   cursor: pointer;
 }
 
-/* line 357, ../sass/app.scss */
+/* line 368, ../sass/app.scss */
 a {
   color: #000;
 }
-/* line 360, ../sass/app.scss */
+/* line 371, ../sass/app.scss */
 a:hover {
   color: #000;
 }
 
-/* line 366, ../sass/app.scss */
+/* line 377, ../sass/app.scss */
 .content {
   border-top: 1px solid #C9CACC;
 }
 
-/* line 371, ../sass/app.scss */
+/* line 382, ../sass/app.scss */
 .album-text:hover {
   text-decoration: underline;
 }
 
-/* line 375, ../sass/app.scss */
+/* line 386, ../sass/app.scss */
 .artist {
   font-weight: bold;
 }
 
-/* line 379, ../sass/app.scss */
+/* line 390, ../sass/app.scss */
 .top-bar {
   background: #000;
   border-bottom: 5px solid #C9CACC;
   height: 40px;
 }
 
-/* line 386, ../sass/app.scss */
+/* line 397, ../sass/app.scss */
 .header {
   margin-bottom: 40px;
 }
 
-/* line 390, ../sass/app.scss */
+/* line 401, ../sass/app.scss */
 .panel-footer {
   height: 100px;
 }
 
-/* line 394, ../sass/app.scss */
+/* line 405, ../sass/app.scss */
 a {
   color: #333 !important;
 }
 
-/* line 398, ../sass/app.scss */
+/* line 409, ../sass/app.scss */
 nav {
   margin-bottom: 0px !important;
 }
-/* line 399, ../sass/app.scss */
+/* line 410, ../sass/app.scss */
 nav a.active {
   text-decoration: underline;
 }
 
-/* line 406, ../sass/app.scss */
+/* line 417, ../sass/app.scss */
 .panel {
   cursor: pointer;
   box-shadow: none !important;
 }
 
-/* line 411, ../sass/app.scss */
+/* line 422, ../sass/app.scss */
 .panel-footer {
   background-color: #fff !important;
 }
 
 @media only screen and (min-width: 1200px) {
-  /* line 416, ../sass/app.scss */
+  /* line 427, ../sass/app.scss */
   .image-grid .panel-body {
     height: 340px;
   }
 }
-/* line 421, ../sass/app.scss */
+/* line 432, ../sass/app.scss */
 h2 {
   padding-left: 15px;
 }
 
-/* line 427, ../sass/app.scss */
+/* line 438, ../sass/app.scss */
 #jumpToTopButton {
   display: none;
   position: fixed;
@@ -376,7 +387,7 @@ h2 {
   padding: 15px;
   border-radius: 4px;
 }
-/* line 443, ../sass/app.scss */
+/* line 454, ../sass/app.scss */
 #jumpToTopButton:hover {
   background-color: #adadad;
 }

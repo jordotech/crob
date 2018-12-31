@@ -26,6 +26,17 @@ h1 {
 }
 
 .works-button-group {
+
+  .btn{
+    font-size: 22px !important;
+    font-weight: bold;
+    color:#fff !important;
+    background-color:#222 !important;
+    &:hover{
+      background-color:#d4d4d4 !important;
+    }
+  }
+
   margin-bottom: 15px;
 }
 

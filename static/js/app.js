@@ -35,7 +35,24 @@ app.config(["$routeProvider", "$locationProvider", function ($routeProvider, $lo
 
 }]);
 
+function fixHeights() {
+    setTimeout(function () {
+        count = 0;
+        $('.single-row').each(function () {
+            count++;
+            var row = $(this);
+            var heights = [];
+            $(row).find('.panel').each(function () {
+                if ($(this) != undefined) {
+                    heights.push($(this).height());
+                }
+            });
+            var tallest_in_row = Math.max.apply(null, heights);
+            $(row).find('.panel').css({'height': tallest_in_row});
+        });
+    }, 3000);
 
+}
 
 $(function () {
     $('#myModal').on('show.bs.modal', function (event) {
@@ -46,20 +63,24 @@ $(function () {
         $(this).find('.modal-title .full-res-link').html($(source).find('.panel-footer .full-res-link').html());
 
     });
+    fixHeights();
+
 })
 
-window.onscroll = function() {scrollFunction()};
+window.onscroll = function () {
+    scrollFunction()
+};
 
 function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    document.getElementById("jumpToTopButton").style.display = "block";
-  } else {
-    document.getElementById("jumpToTopButton").style.display = "none";
-  }
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("jumpToTopButton").style.display = "block";
+    } else {
+        document.getElementById("jumpToTopButton").style.display = "none";
+    }
 }
 
 // When the user clicks on the button, scroll to the top of the document
 function topFunction() {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
 }

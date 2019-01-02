@@ -28,6 +28,8 @@
     <script src="./static/angular-route/angular-route.min.js"></script>
     <script src="./static/angular-animate/angular-animate.min.js"></script>
     <script src="./static/js/app.js"></script>
+    <script src="./static/js/controllers.js"></script>
+    <script src="./static/js/directives.js"></script>
     <script src="./static/js/metadata.js"></script>
 
 </head>
@@ -68,26 +70,7 @@
 <div class="">
     <button onclick="topFunction()" id="jumpToTopButton" title="Go to top"><i class="fa fa-chevron-up"></i></button>
     <div class="page {{ pageClass }}" ng-view></div>
-    <div class="modal fade " id="myModal" role="dialog" aria-labelledby="myModalLabel">
-        <div class="modal-dialog modal-lg" role="document">
-            <div class="modal-content ">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
-                            aria-hidden="true">&times;</span></button>
-                    <div class="modal-title" id="gridSystemModalLabel">
-                        <h4></h4>
-                        <div class="text-muted description"></div>
-                        <div class="full-res-link"></div>
-                    </div>
-                </div>
 
-
-                <div class="modal-body"></div>
-
-            </div>
-
-        </div>
-    </div>
 </div>
 
 

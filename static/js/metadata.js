@@ -1,121 +1,153 @@
 var m = {
     'paintings': {
         '1987': [
+
+
+            {
+                'src': './media/IMAGES/paintings/1987/1987_04.jpg',
+                'description': 'dye and pigment on linen',
+                'dimensions': '68" x 100"',
+                'thumb': './media/IMAGES/paintings/1987/1987_04.jpg',
+                'title': 'Winter'
+            },
+            {
+                'src': './media/IMAGES/paintings/1987/1987_05.jpg',
+                'description': 'dye and pigment on linen',
+                'dimensions': '68" x 100"',
+                'thumb': './media/IMAGES/paintings/1987/1987_05.jpg',
+                'title': 'Fall'
+            },
+            {
+                'src': './media/IMAGES/paintings/1987/1987_06.jpg',
+                'description': 'dye and pigment on linen',
+                'dimensions': '68" x 104"',
+                'thumb': './media/IMAGES/paintings/1987/1987_06.jpg',
+                'title': 'Spring'
+            },
+            {
+                'src': './media/IMAGES/paintings/1987/1987_07.jpg',
+                'description': 'dye and pigment on linen',
+                'dimensions': '68" x 103"',
+                'thumb': './media/IMAGES/paintings/1987/1987_07.jpg',
+                'title': 'Summer'
+            },
+
+
+            {
+                'src': './media/IMAGES/paintings/1987/1987_03.jpg',
+                'description': 'dye and pigment on linen',
+                'dimensions': '38" x 30"',
+                'thumb': './media/IMAGES/paintings/1987/1987_03.jpg',
+                'title': 'Untitled'
+            },
+            {
+                'src': './media/IMAGES/paintings/1987/1987_08.jpg',
+                'description': 'dye and pigment on linen',
+                'dimensions': '38" x 30"',
+                'thumb': './media/IMAGES/paintings/1987/1987_08.jpg',
+                'title': 'Untitled'
+            },
+            {
+                'src': './media/IMAGES/paintings/1987/1987_09.jpg',
+                'description': 'dye and pigment on linen',
+                'dimensions': '38" x 30"',
+                'thumb': './media/IMAGES/paintings/1987/1987_09.jpg',
+                'title': 'Untitled'
+            },
+            {
+                'src': './media/IMAGES/paintings/1987/1987_10.jpg',
+                'description': 'dye and pigment on linen',
+                'dimensions': '37.5" x 29"',
+                'thumb': './media/IMAGES/paintings/1987/1987_10.jpg',
+                'title': 'Untitled'
+            },
+
+
+            {
+                'src': './media/IMAGES/paintings/1987/1987_02.jpg',
+                'description': 'dye and pigment on linen',
+                'dimensions': '26" x 27"',
+                'thumb': './media/IMAGES/paintings/1987/1987_02.jpg',
+                'title': 'Untitled'
+            },
+            {
+                'src': './media/IMAGES/paintings/1987/1987_12.jpg',
+                'description': 'dye and pigment on linen',
+                'dimensions': '17.5" x 19.5"',
+                'thumb': './media/IMAGES/paintings/1987/1987_12.jpg',
+                'title': 'Untitled'
+            },
             {
                 'src': './media/IMAGES/paintings/1987/1987_01.jpg',
                 'description': 'dye and pigment on linen',
                 'dimensions': '35" x 30"',
                 'thumb': './media/IMAGES/paintings/1987/1987_01.jpg',
                 'title': 'Untitled'
-            }, {
-                'src': './media/IMAGES/paintings/1987/1987_02.jpg',
-                'description': 'dye and pigment on linen',
-                'dimensions': '26" x 27"',
-                'thumb': './media/IMAGES/paintings/1987/1987_02.jpg',
-                'title': 'Untitled'
-            }, {
-                'src': './media/IMAGES/paintings/1987/1987_03.jpg',
-                'description': 'dye and pigment on linen',
-                'dimensions': '38" x 30"',
-                'thumb': './media/IMAGES/paintings/1987/1987_03.jpg',
-                'title': 'Untitled'
-            }, {
-                'src': './media/IMAGES/paintings/1987/1987_04.jpg',
-                'description': 'dye and pigment on linen',
-                'dimensions': '68" x 100"',
-                'thumb': './media/IMAGES/paintings/1987/1987_04.jpg',
-                'title': 'Winter'
-            }, {
-                'src': './media/IMAGES/paintings/1987/1987_05.jpg',
-                'description': 'dye and pigment on linen',
-                'dimensions': '68" x 100"',
-                'thumb': './media/IMAGES/paintings/1987/1987_05.jpg',
-                'title': 'Fall'
-            }, {
-                'src': './media/IMAGES/paintings/1987/1987_06.jpg',
-                'description': 'dye and pigment on linen',
-                'dimensions': '68" x 104"',
-                'thumb': './media/IMAGES/paintings/1987/1987_06.jpg',
-                'title': 'Spring'
-            }, {
-                'src': './media/IMAGES/paintings/1987/1987_07.jpg',
-                'description': 'dye and pigment on linen',
-                'dimensions': '68" x 103"',
-                'thumb': './media/IMAGES/paintings/1987/1987_07.jpg',
-                'title': 'Summer'
-            }, {
-                'src': './media/IMAGES/paintings/1987/1987_08.jpg',
-                'description': 'dye and pigment on linen',
-                'dimensions': '38" x 30"',
-                'thumb': './media/IMAGES/paintings/1987/1987_08.jpg',
-                'title': 'Untitled'
-            }, {
-                'src': './media/IMAGES/paintings/1987/1987_09.jpg',
-                'description': 'dye and pigment on linen',
-                'dimensions': '38" x 30"',
-                'thumb': './media/IMAGES/paintings/1987/1987_09.jpg',
-                'title': 'Untitled'
-            }, {
-                'src': './media/IMAGES/paintings/1987/1987_10.jpg',
-                'description': 'dye and pigment on linen',
-                'dimensions': '37.5" x 29"',
-                'thumb': './media/IMAGES/paintings/1987/1987_10.jpg',
-                'title': 'Untitled'
-            }, {
-                'src': './media/IMAGES/paintings/1987/1987_11.jpg',
-                'description': 'dye and pigment on linen',
-                'dimensions': '',
-                'thumb': './media/IMAGES/paintings/1987/1987_11.jpg',
-                'title': 'Untitled'
-            }, {
-                'src': './media/IMAGES/paintings/1987/1987_12.jpg',
-                'description': 'dye and pigment on linen',
-                'dimensions': '17.5" x 19.5"',
-                'thumb': './media/IMAGES/paintings/1987/1987_12.jpg',
-                'title': 'Untitled'
-            }, {
+            },
+            {
                 'src': './media/IMAGES/paintings/1987/1987_13.jpg',
                 'description': 'dye and pigment on linen',
                 'dimensions': '38" x 30"',
                 'thumb': './media/IMAGES/paintings/1987/1987_13.jpg',
                 'title': 'Untitled'
-            }, {
-                'src': './media/IMAGES/paintings/1987/1987_14.jpg',
-                'description': 'dye and pigment on linen',
-                'dimensions': '100" x 85"',
-                'thumb': './media/IMAGES/paintings/1987/1987_14.jpg',
-                'title': 'Untitled'
-            }, {
-                'src': './media/IMAGES/paintings/1987/1987_15.jpg',
-                'description': 'dye and pigment on linen',
-                'dimensions': '110" x 108"',
-                'thumb': './media/IMAGES/paintings/1987/1987_15.jpg',
-                'title': 'Untitled'
-            }, {
+            },
+
+
+            {
                 'src': './media/IMAGES/paintings/1987/1987_16.jpg',
                 'description': 'dye and pigment on linen',
                 'dimensions': '33" x 23"',
                 'thumb': './media/IMAGES/paintings/1987/1987_16.jpg',
                 'title': 'Untitled'
-            }, {
+            },
+            {
                 'src': './media/IMAGES/paintings/1987/1987_17.jpg',
                 'description': 'dye and pigment on linen',
                 'dimensions': '54" x 43"',
                 'thumb': './media/IMAGES/paintings/1987/1987_17.jpg',
                 'title': 'Untitled'
-            }, {
+            },
+            {
                 'src': './media/IMAGES/paintings/1987/1987_18.jpg',
                 'description': 'dye and pigment on linen',
                 'dimensions': '22" x 22"',
                 'thumb': './media/IMAGES/paintings/1987/1987_18.jpg',
                 'title': 'Untitled'
-            }, {
+            },
+            {
                 'src': './media/IMAGES/paintings/1987/1987_19.jpg',
                 'description': 'dye and pigment on linen',
                 'dimensions': '26" x 25"',
                 'thumb': './media/IMAGES/paintings/1987/1987_19.jpg',
                 'title': 'Untitled'
-            }],
+            },
+
+
+            {
+                'src': './media/IMAGES/paintings/1987/1987_11.jpg',
+                'description': 'dye and pigment on linen',
+                'dimensions': '',
+                'thumb': './media/IMAGES/paintings/1987/1987_11.jpg',
+                'title': 'Untitled'
+            },
+            {
+                'src': './media/IMAGES/paintings/1987/1987_15.jpg',
+                'description': 'dye and pigment on linen',
+                'dimensions': '110" x 108"',
+                'thumb': './media/IMAGES/paintings/1987/1987_15.jpg',
+                'title': 'Untitled'
+            },
+
+            {
+                'src': './media/IMAGES/paintings/1987/1987_14.jpg',
+                'description': 'dye and pigment on linen',
+                'dimensions': '100" x 85"',
+                'thumb': './media/IMAGES/paintings/1987/1987_14.jpg',
+                'title': 'Untitled'
+            },
+
+
+        ],
         '1988': [
             {
                 'src': './media/IMAGES/paintings/1988/1988_01.jpg',
@@ -420,7 +452,7 @@ var m = {
                 'thumb': './media/IMAGES/paintings/1989/1989_31.jpg',
                 'title': 'Untitled'
             }
-            ],
+        ],
         '1990': [
             {
                 'src': './media/IMAGES/paintings/1990/1990_01.jpg',
@@ -841,91 +873,91 @@ var m = {
     },
     'furniture': [
 
-            {
-                'src': './media/IMAGES/furniture/misc/Furniture_01.jpg',
-                'description': 'Danger from Japan, Art et Industrie',
-                'dimensions': '',
-                'thumb': './media/IMAGES/furniture/misc/Furniture_01.jpg',
-                'title': ''
-            }, {
-                'src': './media/IMAGES/furniture/misc/Furniture_02.jpg',
-                'description': 'Danger from Japan, Art et Industrie',
-                'dimensions': '',
-                'thumb': './media/IMAGES/furniture/misc/Furniture_02.jpg',
-                'title': ''
-            }, {
-                'src': './media/IMAGES/furniture/misc/Furniture_03.jpg',
-                'description': '',
-                'dimensions': '',
-                'thumb': './media/IMAGES/furniture/misc/Furniture_03.jpg',
-                'title': ''
-            }, {
-                'src': './media/IMAGES/furniture/misc/Furniture_04.jpg',
-                'description': '',
-                'dimensions': '',
-                'thumb': './media/IMAGES/furniture/misc/Furniture_04.jpg',
-                'title': ''
-            }, {
-                'src': './media/IMAGES/furniture/misc/Furniture_05.jpg',
-                'description': '',
-                'dimensions': '',
-                'thumb': './media/IMAGES/furniture/misc/Furniture_05.jpg',
-                'title': ''
-            }, {
-                'src': './media/IMAGES/furniture/misc/Furniture_06.jpg',
-                'description': '',
-                'dimensions': '',
-                'thumb': './media/IMAGES/furniture/misc/Furniture_06.jpg',
-                'title': ''
-            }, {
-                'src': './media/IMAGES/furniture/misc/Furniture_07.jpg',
-                'description': '',
-                'dimensions': '',
-                'thumb': './media/IMAGES/furniture/misc/Furniture_07.jpg',
-                'title': ''
-            }, {
-                'src': './media/IMAGES/furniture/misc/Furniture_08.jpg',
-                'description': '',
-                'dimensions': '',
-                'thumb': './media/IMAGES/furniture/misc/Furniture_08.jpg',
-                'title': ''
-            }, {
-                'src': './media/IMAGES/furniture/misc/Furniture_09.jpg',
-                'description': '',
-                'dimensions': '',
-                'thumb': './media/IMAGES/furniture/misc/Furniture_09.jpg',
-                'title': ''
-            }, {
-                'src': './media/IMAGES/furniture/misc/Furniture_10.jpg',
-                'description': '',
-                'dimensions': '',
-                'thumb': './media/IMAGES/furniture/misc/Furniture_10.jpg',
-                'title': ''
-            }, {
-                'src': './media/IMAGES/furniture/misc/Furniture_11.jpg',
-                'description': '',
-                'dimensions': '',
-                'thumb': './media/IMAGES/furniture/misc/Furniture_11.jpg',
-                'title': ''
-            }, {
-                'src': './media/IMAGES/furniture/misc/Furniture_12.jpg',
-                'description': 'Art et Industrie',
-                'dimensions': '',
-                'thumb': './media/IMAGES/furniture/misc/Furniture_12.jpg',
-                'title': ''
-            }, {
-                'src': './media/IMAGES/furniture/misc/Furniture_13.jpg',
-                'description': 'Art et Industrie',
-                'dimensions': '',
-                'thumb': './media/IMAGES/furniture/misc/Furniture_13.jpg',
-                'title': ''
-            }, {
-                'src': './media/IMAGES/furniture/misc/Furniture_14.jpg',
-                'description': '',
-                'dimensions': '',
-                'thumb': './media/IMAGES/furniture/misc/Furniture_14.jpg',
-                'title': ''
-            }
+        {
+            'src': './media/IMAGES/furniture/misc/Furniture_01.jpg',
+            'description': 'Danger from Japan, Art et Industrie',
+            'dimensions': '',
+            'thumb': './media/IMAGES/furniture/misc/Furniture_01.jpg',
+            'title': ''
+        }, {
+            'src': './media/IMAGES/furniture/misc/Furniture_02.jpg',
+            'description': 'Danger from Japan, Art et Industrie',
+            'dimensions': '',
+            'thumb': './media/IMAGES/furniture/misc/Furniture_02.jpg',
+            'title': ''
+        }, {
+            'src': './media/IMAGES/furniture/misc/Furniture_03.jpg',
+            'description': '',
+            'dimensions': '',
+            'thumb': './media/IMAGES/furniture/misc/Furniture_03.jpg',
+            'title': ''
+        }, {
+            'src': './media/IMAGES/furniture/misc/Furniture_04.jpg',
+            'description': '',
+            'dimensions': '',
+            'thumb': './media/IMAGES/furniture/misc/Furniture_04.jpg',
+            'title': ''
+        }, {
+            'src': './media/IMAGES/furniture/misc/Furniture_05.jpg',
+            'description': '',
+            'dimensions': '',
+            'thumb': './media/IMAGES/furniture/misc/Furniture_05.jpg',
+            'title': ''
+        }, {
+            'src': './media/IMAGES/furniture/misc/Furniture_06.jpg',
+            'description': '',
+            'dimensions': '',
+            'thumb': './media/IMAGES/furniture/misc/Furniture_06.jpg',
+            'title': ''
+        }, {
+            'src': './media/IMAGES/furniture/misc/Furniture_07.jpg',
+            'description': '',
+            'dimensions': '',
+            'thumb': './media/IMAGES/furniture/misc/Furniture_07.jpg',
+            'title': ''
+        }, {
+            'src': './media/IMAGES/furniture/misc/Furniture_08.jpg',
+            'description': '',
+            'dimensions': '',
+            'thumb': './media/IMAGES/furniture/misc/Furniture_08.jpg',
+            'title': ''
+        }, {
+            'src': './media/IMAGES/furniture/misc/Furniture_09.jpg',
+            'description': '',
+            'dimensions': '',
+            'thumb': './media/IMAGES/furniture/misc/Furniture_09.jpg',
+            'title': ''
+        }, {
+            'src': './media/IMAGES/furniture/misc/Furniture_10.jpg',
+            'description': '',
+            'dimensions': '',
+            'thumb': './media/IMAGES/furniture/misc/Furniture_10.jpg',
+            'title': ''
+        }, {
+            'src': './media/IMAGES/furniture/misc/Furniture_11.jpg',
+            'description': '',
+            'dimensions': '',
+            'thumb': './media/IMAGES/furniture/misc/Furniture_11.jpg',
+            'title': ''
+        }, {
+            'src': './media/IMAGES/furniture/misc/Furniture_12.jpg',
+            'description': 'Art et Industrie',
+            'dimensions': '',
+            'thumb': './media/IMAGES/furniture/misc/Furniture_12.jpg',
+            'title': ''
+        }, {
+            'src': './media/IMAGES/furniture/misc/Furniture_13.jpg',
+            'description': 'Art et Industrie',
+            'dimensions': '',
+            'thumb': './media/IMAGES/furniture/misc/Furniture_13.jpg',
+            'title': ''
+        }, {
+            'src': './media/IMAGES/furniture/misc/Furniture_14.jpg',
+            'description': '',
+            'dimensions': '',
+            'thumb': './media/IMAGES/furniture/misc/Furniture_14.jpg',
+            'title': ''
+        }
 
     ],
     'press': [
@@ -1009,7 +1041,7 @@ var m = {
             'title': ''
         }
     ],
-    'bio':[
+    'bio': [
 
         {
             'src': './media/IMAGES/bio/cv.jpg',

@@ -24,7 +24,7 @@
             <div  ng-repeat="i in [$index, $index + 1, $index + 2, $index + 3]"
                  ng-if="_items[i] != null">
                 <div class=" col-xs-12 col-sm-6 col-md-3 page-grid">
-                    <div class="panel" data-toggle="modal" data-target="#myModal">
+                    <div class="panel" subsection="{{key}}" data-toggle="modal" data-target="#myModal">
                         <div class="album-img panel-body text-center">
                             <img class="img-responsive" ng-src="{{ _items[i].thumb }}"/>
                         </div>

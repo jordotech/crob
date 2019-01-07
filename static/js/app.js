@@ -35,23 +35,23 @@ app.config(["$routeProvider", "$locationProvider", function ($routeProvider, $lo
 
 }]);
 
-function fixHeights() {
-    setTimeout(function () {
-        count = 0;
-        $('.single-row').each(function () {
-            count++;
-            var row = $(this);
-            var heights = [];
-            $(row).find('.panel').each(function () {
-                if ($(this) != undefined) {
-                    heights.push($(this).height());
-                }
-            });
-            var tallest_in_row = Math.max.apply(null, heights);
-            $(row).find('.panel').css({'height': tallest_in_row});
-        });
-    }, 3000);
+function findMaxSectionHeight(subsection) {
+    /**
+     * Just used as a helper tool when figuring out media queries...
+     * @type {number}
+     */
+    count = 0;
+    var heights = [];
+    $('.panel[subsection="' + subsection + '"]').each(function () {
 
+        if ($(this) != undefined) {
+            heights.push($(this).height());
+        }
+        //console.log(heights);
+
+    });
+    var tallest_in_row = Math.max.apply(null, heights);
+    console.log(tallest_in_row, "tallest in row for subsection + " + subsection);
 }
 
 $(function () {
@@ -63,7 +63,6 @@ $(function () {
         $(this).find('.modal-title .full-res-link').html($(source).find('.panel-footer .full-res-link').html());
 
     });
-    fixHeights();
 
 })
 

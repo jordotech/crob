@@ -13,7 +13,7 @@ angular.module('App.Controllers', [])
         if ($scope.section) {
             $scope.subSections = Array();
             $scope.pageName = $scope.section;
-
+            $scope.pageClass = 'page-works ' + $scope.section;
             if ($scope.sub_section) {
                 if($scope.section == 'textiles' && $scope.sub_section == '1982'){
                     $scope.page_description = "All images feature fabrics designed by M. Clark Robertson for textile " +

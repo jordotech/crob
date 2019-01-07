@@ -415,9 +415,133 @@ nav {
   margin-bottom: 0px !important;
 }
 
+.page-works {
+  &.textiles{
+    .panel{
+      &[subsection="1981"] {
+        @media only screen and (min-width: 300px) {
+          height:inherit;
+        }
+        @media only screen and (min-width: 768px) {
+          height: 616px;
+        }
+        @media only screen and (min-width: 992px) {
+          height: 411px;
+        }@media only screen and (min-width: 1200px) {
+          height: 488px;
+        }
+      }
+      &[subsection="1982"] {
+        @media only screen and (min-width: 300px) {
+          height:inherit;
+        }
+        @media only screen and (min-width: 768px) {
+          height: 589px;
+        }
+        @media only screen and (min-width: 992px) {
+          height: 393px;
+        }@media only screen and (min-width: 1200px) {
+          height: 468px;
+        }
+      }
+      &[subsection="1983"] {
+        @media only screen and (min-width: 300px) {
+          height:inherit;
+        }
+        @media only screen and (min-width: 768px) {
+          height: 753px;
+        }
+        @media only screen and (min-width: 992px) {
+          height: 502px;
+        }@media only screen and (min-width: 1200px) {
+          height: 598px;
+        }
+      }
+      &[subsection="misc"] {
+        @media only screen and (min-width: 300px) {
+          height:inherit;
+        }
+        @media only screen and (min-width: 768px) {
+          height: 756px;
+        }
+        @media only screen and (min-width: 992px) {
+          height: 504px;
+        }@media only screen and (min-width: 1200px) {
+          height: 600px;
+        }
+      }
+    }
+  }
+  &.paintings {
+
+    .panel {
+      &[subsection="1987"] {
+        @media only screen and (min-width: 300px) {
+          height:inherit;
+        }
+
+        @media only screen and (min-width: 768px) {
+          height: 621px;
+        }
+        @media only screen and (min-width: 992px) {
+          height: 414px;
+        }@media only screen and (min-width: 1200px) {
+          height: 500px;
+        }
+      }
+      &[subsection="1988"] {
+        @media only screen and (min-width: 300px) {
+          height:inherit;
+        }
+
+        @media only screen and (min-width: 768px) {
+          height: 705px;
+        }
+        @media only screen and (min-width: 992px) {
+          height: 463px;
+        }@media only screen and (min-width: 1200px) {
+          height: 555px;
+        }
+      }
+
+
+      &[subsection="1989"] {
+        @media only screen and (min-width: 300px) {
+          height:inherit;
+        }
+
+        @media only screen and (min-width: 768px) {
+          height: 734px;
+        }
+        @media only screen and (min-width: 992px) {
+          height: 480px;
+        }@media only screen and (min-width: 1200px) {
+          height: 576px;
+        }
+      }
+
+      &[subsection="1990"] {
+        @media only screen and (min-width: 300px) {
+          height:inherit;
+        }
+
+        @media only screen and (min-width: 768px) {
+          height: 615px;
+        }
+        @media only screen and (min-width: 992px) {
+          height: 411px;
+        }@media only screen and (min-width: 1200px) {
+          height: 488px;
+        }
+      }
+    }
+  }
+}
+
 .panel {
   cursor: pointer;
   box-shadow: none !important;
+
 }
 
 .panel-footer {
@@ -426,7 +550,7 @@ nav {
 
 @media only screen and (min-width: 1200px) {
   .image-grid .panel-body {
-    height: 340px;
+    //height: 340px;
   }
 }
 

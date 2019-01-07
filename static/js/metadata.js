@@ -1,8 +1,6 @@
 var m = {
     'paintings': {
         '1987': [
-
-
             {
                 'src': './media/IMAGES/paintings/1987/1987_04.jpg',
                 'description': 'dye and pigment on linen',
@@ -149,309 +147,379 @@ var m = {
 
         ],
         '1988': [
+
+
+            {
+                'src': './media/IMAGES/paintings/1988/1988_14.jpg',
+                'description': 'dye and pigment on linen',
+                'dimensions': '63" x 47"',
+                'thumb': './media/IMAGES/paintings/1988/1988_14.jpg',
+                'title': 'Choroni, 3:03 p.m.'
+            },
+            {
+                'src': './media/IMAGES/paintings/1988/1988_13.jpg',
+                'description': '',
+                'dimensions': '63" x 47"',
+                'thumb': './media/IMAGES/paintings/1988/1988_13.jpg',
+                'title': 'Choroni, 2:03 p.m.'
+            },
+
+            {
+                'src': './media/IMAGES/paintings/1988/1988_15.jpg',
+                'description': 'dye and pigment on linen',
+                'dimensions': '63" x 47"',
+                'thumb': './media/IMAGES/paintings/1988/1988_15.jpg',
+                'title': 'Choroni, 4:03 p.m.'
+            },
+
+
             {
                 'src': './media/IMAGES/paintings/1988/1988_01.jpg',
                 'description': 'dye and pigment on linen',
                 'dimensions': 'L 59" x 34" R 58" x 32"',
                 'thumb': './media/IMAGES/paintings/1988/1988_01.jpg',
                 'title': 'Untitled'
-            }, {
-                'src': './media/IMAGES/paintings/1988/1988_02.jpg',
-                'description': '',
-                'dimensions': '',
-                'thumb': './media/IMAGES/paintings/1988/1988_02.jpg',
-                'title': 'Detail'
-            }, {
+            },
+            {
                 'src': './media/IMAGES/paintings/1988/1988_03.jpg',
                 'description': '',
                 'dimensions': '',
                 'thumb': './media/IMAGES/paintings/1988/1988_03.jpg',
-                'title': 'Detail'
-            }, {
-                'src': './media/IMAGES/paintings/1988/1988_04.jpg',
-                'description': 'dye and pigment on linen',
-                'dimensions': '40" x 76"',
-                'thumb': './media/IMAGES/paintings/1988/1988_04.jpg',
-                'title': 'Wreath'
-            }, {
+                'title': 'Untitled, Diptych (Left)'
+            },
+            {
+                'src': './media/IMAGES/paintings/1988/1988_02.jpg',
+                'description': '',
+                'dimensions': '',
+                'thumb': './media/IMAGES/paintings/1988/1988_02.jpg',
+                'title': 'Untitled, Diptych (Right)'
+            },
+            {
                 'src': './media/IMAGES/paintings/1988/1988_05.jpg',
                 'description': 'dye and pigment on linen',
                 'dimensions': 'L 72" x 34.5" R 71" x 34.5"',
                 'thumb': './media/IMAGES/paintings/1988/1988_05.jpg',
                 'title': 'Diptych, Harlequin and The Number 13'
-            }, {
+            },
+
+            {
                 'src': './media/IMAGES/paintings/1988/1988_06.jpg',
                 'description': 'dye and pigment on linen',
                 'dimensions': '72" x 34.5"',
                 'thumb': './media/IMAGES/paintings/1988/1988_06.jpg',
                 'title': 'Harlequin'
-            }, {
-                'src': './media/IMAGES/paintings/1988/1988_07.jpg',
-                'description': '',
-                'dimensions': '',
-                'thumb': './media/IMAGES/paintings/1988/1988_07.jpg',
-                'title': 'Harlequin (detail)'
-            }, {
+            },
+            {
                 'src': './media/IMAGES/paintings/1988/1988_08.jpg',
                 'description': '',
                 'dimensions': '',
                 'thumb': './media/IMAGES/paintings/1988/1988_08.jpg',
                 'title': 'Harlequin (detail)'
-            }, {
+            },
+            {
+                'src': './media/IMAGES/paintings/1988/1988_07.jpg',
+                'description': '',
+                'dimensions': '',
+                'thumb': './media/IMAGES/paintings/1988/1988_07.jpg',
+                'title': 'Harlequin (detail)'
+            },
+
+            {
                 'src': './media/IMAGES/paintings/1988/1988_09.jpg',
                 'description': 'dye and pigment on linen',
                 'dimensions': '71" x 34.5"',
                 'thumb': './media/IMAGES/paintings/1988/1988_09.jpg',
                 'title': 'The Number 13'
-            }, {
+            },
+            {
                 'src': './media/IMAGES/paintings/1988/1988_10.jpg',
                 'description': '',
                 'dimensions': '',
                 'thumb': './media/IMAGES/paintings/1988/1988_10.jpg',
                 'title': 'The Number 13 (detail)'
-            }, {
+            },
+            {
                 'src': './media/IMAGES/paintings/1988/1988_11.jpg',
                 'description': '',
                 'dimensions': '',
                 'thumb': './media/IMAGES/paintings/1988/1988_11.jpg',
                 'title': 'The Number 13 (detail)'
-            }, {
-                'src': './media/IMAGES/paintings/1988/1988_12.jpg',
+            },
+
+            {
+                'src': './media/IMAGES/paintings/1988/1988_04.jpg',
                 'description': 'dye and pigment on linen',
-                'dimensions': '64" x 51"',
-                'thumb': './media/IMAGES/paintings/1988/1988_12.jpg',
-                'title': 'Untitled'
-            }, {
-                'src': './media/IMAGES/paintings/1988/1988_13.jpg',
-                'description': '',
-                'dimensions': '63" x 47"',
-                'thumb': './media/IMAGES/paintings/1988/1988_13.jpg',
-                'title': 'Choroni, 2:03 p.m.'
-            }, {
-                'src': './media/IMAGES/paintings/1988/1988_14.jpg',
-                'description': 'dye and pigment on linen',
-                'dimensions': '63" x 47"',
-                'thumb': './media/IMAGES/paintings/1988/1988_14.jpg',
-                'title': 'Choroni, 3:03 p.m.'
-            }, {
-                'src': './media/IMAGES/paintings/1988/1988_15.jpg',
-                'description': 'dye and pigment on linen',
-                'dimensions': '63" x 47"',
-                'thumb': './media/IMAGES/paintings/1988/1988_15.jpg',
-                'title': 'Choroni, 4:03 p.m.'
-            }, {
-                'src': './media/IMAGES/paintings/1988/1988_16.jpg',
-                'description': 'dye and pigment on linen',
-                'dimensions': '103" x 92"',
-                'thumb': './media/IMAGES/paintings/1988/1988_16.jpg',
-                'title': 'Untitled'
-            }, {
-                'src': './media/IMAGES/paintings/1988/1988_17.jpg',
-                'description': 'dye and pigment on linen',
-                'dimensions': '52" x 35"',
-                'thumb': './media/IMAGES/paintings/1988/1988_17.jpg',
-                'title': 'Untitled'
-            }, {
-                'src': './media/IMAGES/paintings/1988/1988_18.jpg',
-                'description': 'dye and pigment on linen',
-                'dimensions': '51" x 35"',
-                'thumb': './media/IMAGES/paintings/1988/1988_18.jpg',
-                'title': 'Untitled'
-            }, {
+                'dimensions': '40" x 76"',
+                'thumb': './media/IMAGES/paintings/1988/1988_04.jpg',
+                'title': 'Wreath'
+            },
+            {
                 'src': './media/IMAGES/paintings/1988/1988_19.jpg',
                 'description': 'dye and pigment on linen',
                 'dimensions': '36" x 38"',
                 'thumb': './media/IMAGES/paintings/1988/1988_19.jpg',
                 'title': 'Untitled'
-            }],
+            },
+            {
+                'src': './media/IMAGES/paintings/1988/1988_12.jpg',
+                'description': 'dye and pigment on linen',
+                'dimensions': '64" x 51"',
+                'thumb': './media/IMAGES/paintings/1988/1988_12.jpg',
+                'title': 'Untitled'
+            },
+
+            {
+                'src': './media/IMAGES/paintings/1988/1988_16.jpg',
+                'description': 'dye and pigment on linen',
+                'dimensions': '103" x 92"',
+                'thumb': './media/IMAGES/paintings/1988/1988_16.jpg',
+                'title': 'Untitled'
+            },
+            {
+                'src': './media/IMAGES/paintings/1988/1988_17.jpg',
+                'description': 'dye and pigment on linen',
+                'dimensions': '52" x 35"',
+                'thumb': './media/IMAGES/paintings/1988/1988_17.jpg',
+                'title': 'Untitled'
+            },
+            {
+                'src': './media/IMAGES/paintings/1988/1988_18.jpg',
+                'description': 'dye and pigment on linen',
+                'dimensions': '51" x 35"',
+                'thumb': './media/IMAGES/paintings/1988/1988_18.jpg',
+                'title': 'Untitled'
+            },
+
+        ],
         '1989': [
+
+
+            {
+                'src': './media/IMAGES/paintings/1989/1989_17.jpg',
+                'description': 'dye on linen',
+                'dimensions': '',
+                'thumb': './media/IMAGES/paintings/1989/1989_17.jpg',
+                'title': 'Untitled'
+            },
+            {
+                'src': './media/IMAGES/paintings/1989/1989_18.jpg',
+                'description': '',
+                'dimensions': '',
+                'thumb': './media/IMAGES/paintings/1989/1989_18.jpg',
+                'title': 'Detail'
+            },
+            {
+                'src': './media/IMAGES/paintings/1989/1989_19.jpg',
+                'description': 'dye on linen',
+                'dimensions': '',
+                'thumb': './media/IMAGES/paintings/1989/1989_19.jpg',
+                'title': 'Untitled'
+            },
+            {
+                'src': './media/IMAGES/paintings/1989/1989_20.jpg',
+                'description': '',
+                'dimensions': '',
+                'thumb': './media/IMAGES/paintings/1989/1989_20.jpg',
+                'title': 'Detail'
+            },
+            {
+                'src': './media/IMAGES/paintings/1989/1989_23.jpg',
+                'description': 'dye on linen',
+                'dimensions': '',
+                'thumb': './media/IMAGES/paintings/1989/1989_23.jpg',
+                'title': 'Untitled'
+            },
+            {
+                'src': './media/IMAGES/paintings/1989/1989_24.jpg',
+                'description': '',
+                'dimensions': '',
+                'thumb': './media/IMAGES/paintings/1989/1989_24.jpg',
+                'title': 'Detail'
+            },
+            {
+                'src': './media/IMAGES/paintings/1989/1989_25.jpg',
+                'description': 'dye on linen',
+                'dimensions': '',
+                'thumb': './media/IMAGES/paintings/1989/1989_25.jpg',
+                'title': 'Untitled'
+            },
+            {
+                'src': './media/IMAGES/paintings/1989/1989_26.jpg',
+                'description': '',
+                'dimensions': '',
+                'thumb': './media/IMAGES/paintings/1989/1989_26.jpg',
+                'title': 'Detail'
+            },
+            {
+                'src': './media/IMAGES/paintings/1989/1989_21.jpg',
+                'description': 'dye on linen',
+                'dimensions': '',
+                'thumb': './media/IMAGES/paintings/1989/1989_21.jpg',
+                'title': 'Untitled'
+            },
+            {
+                'src': './media/IMAGES/paintings/1989/1989_22.jpg',
+                'description': 'dye on linen',
+                'dimensions': '',
+                'thumb': './media/IMAGES/paintings/1989/1989_22.jpg',
+                'title': 'Untitled'
+            },
+
+            {
+                'src': './media/IMAGES/paintings/1989/1989_30.jpg',
+                'description': 'dye on canvas',
+                'dimensions': '54" x 53"',
+                'thumb': './media/IMAGES/paintings/1989/1989_30.jpg',
+                'title': 'Untitled'
+            },
+            {
+                'src': './media/IMAGES/paintings/1989/1989_31.jpg',
+                'description': 'Dye on linen',
+                'dimensions': '',
+                'thumb': './media/IMAGES/paintings/1989/1989_31.jpg',
+                'title': 'Untitled'
+            },
+            {
+                'src': './media/IMAGES/paintings/1989/1989_12.jpg',
+                'description': 'dye on linen',
+                'dimensions': '',
+                'thumb': './media/IMAGES/paintings/1989/1989_12.jpg',
+                'title': 'Untitled'
+            },
+            {
+                'src': './media/IMAGES/paintings/1989/1989_16.jpg',
+                'description': 'Dye on linen',
+                'dimensions': '',
+                'thumb': './media/IMAGES/paintings/1989/1989_16.jpg',
+                'title': 'Diptych'
+            },
+            {
+                'src': './media/IMAGES/paintings/1989/1989_15.jpg',
+                'description': 'dye on linen',
+                'dimensions': '',
+                'thumb': './media/IMAGES/paintings/1989/1989_15.jpg',
+                'title': 'Untitled'
+            },
+            {
+                'src': './media/IMAGES/paintings/1989/1989_14.jpg',
+                'description': 'dye on linen',
+                'dimensions': '',
+                'thumb': './media/IMAGES/paintings/1989/1989_14.jpg',
+                'title': 'Untitled'
+            },
+            {
+                'src': './media/IMAGES/paintings/1989/1989_27.jpg',
+                'description': 'Dye on linen',
+                'dimensions': 'L unknown R 36" x 28"',
+                'thumb': './media/IMAGES/paintings/1989/1989_27.jpg',
+                'title': 'Untitled (diptych)'
+            },
+            {
+                'src': './media/IMAGES/paintings/1989/1989_04.jpg',
+                'description': 'dye on linen',
+                'dimensions': '27" x 23"',
+                'thumb': './media/IMAGES/paintings/1989/1989_04.jpg',
+                'title': 'Untitled'
+            },
+            {
+                'src': './media/IMAGES/paintings/1989/1989_05.jpg',
+                'description': 'dye on linen',
+                'dimensions': '27" x 23"',
+                'thumb': './media/IMAGES/paintings/1989/1989_05.jpg',
+                'title': 'Untitled'
+            },
+
+            {
+                'src': './media/IMAGES/paintings/1990/1990_06.jpg',
+                'description': 'dye on linen',
+                'dimensions': '',
+                'thumb': './media/IMAGES/paintings/1990/1990_06.jpg',
+                'title': 'Untitled'
+            },
+            {
+                'src': './media/IMAGES/paintings/1989/1989_28.jpg',
+                'description': 'Dye on linen',
+                'dimensions': '',
+                'thumb': './media/IMAGES/paintings/1989/1989_28.jpg',
+                'title': 'Untitled'
+            },
+            {
+                'src': './media/IMAGES/paintings/1989/1989_29.jpg',
+                'description': '',
+                'dimensions': '',
+                'thumb': './media/IMAGES/paintings/1989/1989_29.jpg',
+                'title': ''
+            },
+            {
+                'src': './media/IMAGES/paintings/1989/1989_07.jpg',
+                'description': 'dye on linen',
+                'dimensions': '24" x 19"',
+                'thumb': './media/IMAGES/paintings/1989/1989_07.jpg',
+                'title': 'Untitled'
+            },
+            {
+                'src': './media/IMAGES/paintings/1989/1989_08.jpg',
+                'description': 'dye on linen',
+                'dimensions': '24" x 19"',
+                'thumb': './media/IMAGES/paintings/1989/1989_08.jpg',
+                'title': 'Untitled'
+            },
+            {
+                'src': './media/IMAGES/paintings/1989/1989_09.jpg',
+                'description': 'dye on linen',
+                'dimensions': '55.5" x 51.5"',
+                'thumb': './media/IMAGES/paintings/1989/1989_09.jpg',
+                'title': 'Untitled'
+            },
+            {
+                'src': './media/IMAGES/paintings/1989/1989_10.jpg',
+                'description': 'dye on linen',
+                'dimensions': '55.5" x 51.5"',
+                'thumb': './media/IMAGES/paintings/1989/1989_10.jpg',
+                'title': 'Untitled'
+            },
+            {
+                'src': './media/IMAGES/paintings/1989/1989_11.jpg',
+                'description': 'dye on linen',
+                'dimensions': '55.5" x 51.5"',
+                'thumb': './media/IMAGES/paintings/1989/1989_11.jpg',
+                'title': 'Untitled'
+            },
             {
                 'src': './media/IMAGES/paintings/1989/1989_01.jpg',
                 'description': 'dye on linen',
                 'dimensions': '48.5" x 75"',
                 'thumb': './media/IMAGES/paintings/1989/1989_01.jpg',
                 'title': 'Untitled'
-            }, {
-                'src': './media/IMAGES/paintings/1989/1989_02.jpg',
-                'description': 'dye and pigment on linen',
-                'dimensions': '139" x 102"',
-                'thumb': './media/IMAGES/paintings/1989/1989_02.jpg',
-                'title': 'Casket'
-            }, {
+            },
+            {
                 'src': './media/IMAGES/paintings/1989/1989_03.jpg',
                 'description': 'dye, pigment and embroidery on linen',
                 'dimensions': '104" x 138"',
                 'thumb': './media/IMAGES/paintings/1989/1989_03.jpg',
                 'title': 'Untitled'
-            }, {
-                'src': './media/IMAGES/paintings/1989/1989_04.jpg',
-                'description': 'dye on linen',
-                'dimensions': '27" x 23"',
-                'thumb': './media/IMAGES/paintings/1989/1989_04.jpg',
-                'title': 'Untitled'
-            }, {
-                'src': './media/IMAGES/paintings/1989/1989_05.jpg',
-                'description': 'dye on linen',
-                'dimensions': '27" x 23"',
-                'thumb': './media/IMAGES/paintings/1989/1989_05.jpg',
-                'title': 'Untitled'
-            }, {
-                'src': './media/IMAGES/paintings/1989/1989_06.jpg',
-                'description': 'dye on linen',
-                'dimensions': '94" x 78"',
-                'thumb': './media/IMAGES/paintings/1989/1989_06.jpg',
-                'title': 'Untitled'
-            }, {
-                'src': './media/IMAGES/paintings/1989/1989_07.jpg',
-                'description': 'dye on linen',
-                'dimensions': '24" x 19"',
-                'thumb': './media/IMAGES/paintings/1989/1989_07.jpg',
-                'title': 'Untitled'
-            }, {
-                'src': './media/IMAGES/paintings/1989/1989_08.jpg',
-                'description': 'dye on linen',
-                'dimensions': '24" x 19"',
-                'thumb': './media/IMAGES/paintings/1989/1989_08.jpg',
-                'title': 'Untitled'
-            }, {
-                'src': './media/IMAGES/paintings/1989/1989_09.jpg',
-                'description': 'dye on linen',
-                'dimensions': '55.5" x 51.5"',
-                'thumb': './media/IMAGES/paintings/1989/1989_09.jpg',
-                'title': 'Untitled'
-            }, {
-                'src': './media/IMAGES/paintings/1989/1989_10.jpg',
-                'description': 'dye on linen',
-                'dimensions': '55.5" x 51.5"',
-                'thumb': './media/IMAGES/paintings/1989/1989_10.jpg',
-                'title': 'Untitled'
-            }, {
-                'src': './media/IMAGES/paintings/1989/1989_11.jpg',
-                'description': 'dye on linen',
-                'dimensions': '55.5" x 51.5"',
-                'thumb': './media/IMAGES/paintings/1989/1989_11.jpg',
-                'title': 'Untitled'
-            }, {
-                'src': './media/IMAGES/paintings/1989/1989_12.jpg',
-                'description': 'dye on linen',
-                'dimensions': '',
-                'thumb': './media/IMAGES/paintings/1989/1989_12.jpg',
-                'title': 'Untitled'
-            }, {
+            },
+            {
                 'src': './media/IMAGES/paintings/1989/1989_13.jpg',
                 'description': 'dye and pigment on linen',
                 'dimensions': '81" x 116"',
                 'thumb': './media/IMAGES/paintings/1989/1989_13.jpg',
                 'title': 'City of Mothers'
-            }, {
-                'src': './media/IMAGES/paintings/1989/1989_14.jpg',
+            },
+            {
+                'src': './media/IMAGES/paintings/1989/1989_02.jpg',
+                'description': 'dye and pigment on linen',
+                'dimensions': '139" x 102"',
+                'thumb': './media/IMAGES/paintings/1989/1989_02.jpg',
+                'title': 'Casket'
+            },
+            {
+                'src': './media/IMAGES/paintings/1989/1989_06.jpg',
                 'description': 'dye on linen',
-                'dimensions': '',
-                'thumb': './media/IMAGES/paintings/1989/1989_14.jpg',
+                'dimensions': '94" x 78"',
+                'thumb': './media/IMAGES/paintings/1989/1989_06.jpg',
                 'title': 'Untitled'
-            }, {
-                'src': './media/IMAGES/paintings/1989/1989_15.jpg',
-                'description': 'dye on linen',
-                'dimensions': '',
-                'thumb': './media/IMAGES/paintings/1989/1989_15.jpg',
-                'title': 'Untitled'
-            }, {
-                'src': './media/IMAGES/paintings/1989/1989_16.jpg',
-                'description': 'Dye on linen',
-                'dimensions': '',
-                'thumb': './media/IMAGES/paintings/1989/1989_16.jpg',
-                'title': 'Diptych'
-            }, {
-                'src': './media/IMAGES/paintings/1989/1989_17.jpg',
-                'description': 'dye on linen',
-                'dimensions': '',
-                'thumb': './media/IMAGES/paintings/1989/1989_17.jpg',
-                'title': 'Untitled'
-            }, {
-                'src': './media/IMAGES/paintings/1989/1989_18.jpg',
-                'description': '',
-                'dimensions': '',
-                'thumb': './media/IMAGES/paintings/1989/1989_18.jpg',
-                'title': 'Detail'
-            }, {
-                'src': './media/IMAGES/paintings/1989/1989_19.jpg',
-                'description': 'dye on linen',
-                'dimensions': '',
-                'thumb': './media/IMAGES/paintings/1989/1989_19.jpg',
-                'title': 'Untitled'
-            }, {
-                'src': './media/IMAGES/paintings/1989/1989_20.jpg',
-                'description': '',
-                'dimensions': '',
-                'thumb': './media/IMAGES/paintings/1989/1989_20.jpg',
-                'title': 'Detail'
-            }, {
-                'src': './media/IMAGES/paintings/1989/1989_21.jpg',
-                'description': 'dye on linen',
-                'dimensions': '',
-                'thumb': './media/IMAGES/paintings/1989/1989_21.jpg',
-                'title': 'Untitled'
-            }, {
-                'src': './media/IMAGES/paintings/1989/1989_22.jpg',
-                'description': 'dye on linen',
-                'dimensions': '',
-                'thumb': './media/IMAGES/paintings/1989/1989_22.jpg',
-                'title': 'Untitled'
-            }, {
-                'src': './media/IMAGES/paintings/1989/1989_23.jpg',
-                'description': 'dye on linen',
-                'dimensions': '',
-                'thumb': './media/IMAGES/paintings/1989/1989_23.jpg',
-                'title': 'Untitled'
-            }, {
-                'src': './media/IMAGES/paintings/1989/1989_24.jpg',
-                'description': '',
-                'dimensions': '',
-                'thumb': './media/IMAGES/paintings/1989/1989_24.jpg',
-                'title': 'Detail'
-            }, {
-                'src': './media/IMAGES/paintings/1989/1989_25.jpg',
-                'description': 'dye on linen',
-                'dimensions': '',
-                'thumb': './media/IMAGES/paintings/1989/1989_25.jpg',
-                'title': 'Untitled'
-            }, {
-                'src': './media/IMAGES/paintings/1989/1989_26.jpg',
-                'description': '',
-                'dimensions': '',
-                'thumb': './media/IMAGES/paintings/1989/1989_26.jpg',
-                'title': 'Detail'
-            }, {
-                'src': './media/IMAGES/paintings/1989/1989_27.jpg',
-                'description': 'Dye on linen',
-                'dimensions': 'L unknown R 36" x 28"',
-                'thumb': './media/IMAGES/paintings/1989/1989_27.jpg',
-                'title': 'Untitled (diptych)'
-            }, {
-                'src': './media/IMAGES/paintings/1989/1989_28.jpg',
-                'description': 'Dye on linen',
-                'dimensions': '',
-                'thumb': './media/IMAGES/paintings/1989/1989_28.jpg',
-                'title': 'Untitled'
-            }, {
-                'src': './media/IMAGES/paintings/1989/1989_29.jpg',
-                'description': '',
-                'dimensions': '',
-                'thumb': './media/IMAGES/paintings/1989/1989_29.jpg',
-                'title': ''
-            }, {
-                'src': './media/IMAGES/paintings/1989/1989_30.jpg',
-                'description': 'dye on canvas',
-                'dimensions': '54" x 53"',
-                'thumb': './media/IMAGES/paintings/1989/1989_30.jpg',
-                'title': 'Untitled'
-            }, {
-                'src': './media/IMAGES/paintings/1989/1989_31.jpg',
-                'description': 'Dye on linen',
-                'dimensions': '',
-                'thumb': './media/IMAGES/paintings/1989/1989_31.jpg',
-                'title': 'Untitled'
-            }
+            },
         ],
         '1990': [
             {
@@ -460,38 +528,47 @@ var m = {
                 'dimensions': '64" x 90"',
                 'thumb': './media/IMAGES/paintings/1990/1990_01.jpg',
                 'title': 'Untitled'
-            }, {
-                'src': './media/IMAGES/paintings/1990/1990_02.jpg',
-                'description': 'dye and pigment on linen',
-                'dimensions': '90" x 138"',
-                'thumb': './media/IMAGES/paintings/1990/1990_02.jpg',
-                'title': 'Untitled'
-            }, {
+            },
+            {
                 'src': './media/IMAGES/paintings/1990/1990_03.jpg',
                 'description': 'dye and pigment on linen and wool',
                 'dimensions': '64" x 90"',
                 'thumb': './media/IMAGES/paintings/1990/1990_03.jpg',
                 'title': 'Untitled'
-            }, {
+            },
+            {
+                'src': './media/IMAGES/paintings/1990/1990_02.jpg',
+                'description': 'dye and pigment on linen',
+                'dimensions': '90" x 138"',
+                'thumb': './media/IMAGES/paintings/1990/1990_02.jpg',
+                'title': 'Untitled'
+            },
+
+            {
                 'src': './media/IMAGES/paintings/1990/1990_04.jpg',
                 'description': 'dye and pigment on linen',
                 'dimensions': '',
                 'thumb': './media/IMAGES/paintings/1990/1990_04.jpg',
                 'title': 'Untitled'
-            }, {
+            },
+            {
                 'src': './media/IMAGES/paintings/1990/1990_05.jpg',
                 'description': 'dye and pigment on linen',
                 'dimensions': '',
                 'thumb': './media/IMAGES/paintings/1990/1990_05.jpg',
                 'title': 'Untitled'
-            }, {
-                'src': './media/IMAGES/paintings/1990/1990_06.jpg',
-                'description': 'dye on linen',
-                'dimensions': '',
-                'thumb': './media/IMAGES/paintings/1990/1990_06.jpg',
-                'title': 'Untitled'
-            }
-        ]
+            },
+        ],
+        '1991':[
+            {
+                'src': './media/home.jpg',
+                'description': 'dye, pigment and clay on wool',
+                'dimensions': '95" x 75"',
+                'thumb': './media/home.jpg',
+                'title': 'Face AIDS Today'
+            },
+        ],
+
     },
     'textiles': {
         '1981': [

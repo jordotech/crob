@@ -57,7 +57,13 @@ function findMaxSectionHeight(subsection) {
 $(function () {
     $('#myModal').on('show.bs.modal', function (event) {
         var source = $(event.relatedTarget);
-        $(this).find('.modal-body').html($(source).find('.panel-body').html());
+        //var full_res_src = $(this).find('.full-res-src').attr('full-res-src');
+        //console.log(full_res_src).prop('full-res-src');
+        var full_res_src = $(source).attr('full-res-src');
+        var src_body_html = $(source).find('.panel-body');
+        //$(src_body_html).find('img').attr('ng-src', full_res_src);
+        $(src_body_html).find('img').attr('src', full_res_src);
+        $(this).find('.modal-body').html(src_body_html.html());
         $(this).find('.modal-title h4').html($(source).find('.panel-footer .title').html());
         $(this).find('.modal-title .description').html($(source).find('.panel-footer .description').html());
         $(this).find('.modal-title .full-res-link').html($(source).find('.panel-footer .full-res-link').html());

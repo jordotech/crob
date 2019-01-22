@@ -30,9 +30,12 @@ app.config(["$routeProvider", "$locationProvider", function ($routeProvider, $lo
         .when('/bio', {
             templateUrl: 'templates/page-bio.html',
             controller: 'bioController'
-        })
+        });
 
-
+    $locationProvider.html5Mode({
+        enabled: true,
+        requireBase: false
+    });
 }]);
 
 function findMaxSectionHeight(subsection) {

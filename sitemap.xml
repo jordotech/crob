@@ -1,27 +1,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>http://clarkrobertson.net/bio</loc>
+        <loc>http://clarkrobertson.net/#/bio</loc>
         <changefreq>daily</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>http://clarkrobertson.net/works/paintings</loc>
+        <loc>http://clarkrobertson.net/#/works/paintings</loc>
         <changefreq>daily</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>http://clarkrobertson.net/works/textiles</loc>
+        <loc>http://clarkrobertson.net/#/works/textiles</loc>
         <changefreq>daily</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>http://clarkrobertson.net/works/furniture</loc>
+        <loc>http://clarkrobertson.net/#/works/furniture</loc>
         <changefreq>daily</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
         <loc>
-            http://clarkrobertson.net/press</loc>
+            http://clarkrobertson.net/#/press</loc>
         <changefreq>daily</changefreq>
         <priority>0.6</priority>
     </url>

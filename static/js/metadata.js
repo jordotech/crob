@@ -1061,6 +1061,13 @@ var m = {
         }],
     'press': [
         {
+            'description': '2019 Article from Cooper Hewitt, "Photographic Assemblage" (https://www.cooperhewitt.org/2019/06/26/photographic-assemblage/)',
+            'dimensions': '',
+            'src': './media/IMAGES/press/misc/Press_14.png',
+            'thumb': './media/IMAGES/press/misc/Press_14.png',
+            'title': ''
+        },
+        {
             'description': 'Catalog image from "Design Legacies: A Tribute to Architects and Designers Who Have Died of AIDS," Gallery 91, New York City, 1994',
             'dimensions': '',
             'src': './media/IMAGES/press/misc/Press_01.jpg',

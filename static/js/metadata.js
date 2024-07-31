@@ -1061,6 +1061,13 @@ var m = {
         }],
     'press': [
         {
+            'description': 'From "1980s-90s: Post-Modernism, Document, and Digital Design" in Lesley Jackson\'s "Twentieth Century Pattern Design," Princeton Architectural Press, 2002',
+            'dimensions': '',
+            'src': './media/IMAGES/press/misc/Press_15.jpeg',
+            'thumb': './media/IMAGES/press/misc/Press_15.jpeg',
+            'title': ''
+        },
+        {
             'description': '2019 Article from Cooper Hewitt, "Photographic Assemblage" (https://www.cooperhewitt.org/2019/06/26/photographic-assemblage/)',
             'dimensions': '',
             'src': './media/IMAGES/press/misc/Press_14.png',
